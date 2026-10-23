@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="91mm" height="61mm" viewBox="0 0 91 61"><g font-family="Inter, Arial, Helvetica, sans-serif"><rect width="91" height="61" fill="#FFFFFF"/>
-<path transform="translate(37.4,6.5) scale(0.45)" d="M22 0 L6 34 L16 34 L10 60 L30 22 L19 22 Z" fill="#B7FF2E"/>
-<text x="45.5" y="43.2" text-anchor="middle" font-size="8.4" font-weight="800" fill="#14171C" letter-spacing="0.2">PAV<tspan font-style="italic" font-weight="400" fill="#5B6470" dx="1">GROUP</tspan></text>
-<text x="45.5" y="49" text-anchor="middle" font-size="2.4" fill="#5B6470" letter-spacing="0.5">ELECTRICISTA · COSTA DEL SOL</text>
-<rect x="0" y="54.5" width="91" height="6.5" fill="#B7FF2E"/>
+<path transform="translate(37.4,6.5) scale(0.45)" d="M22 0 L6 34 L16 34 L10 60 L30 22 L19 22 Z" fill="#75C200"/>
+<text x="45.5" y="43.2" text-anchor="middle" font-size="8.4" font-weight="800" fill="#14171C" letter-spacing="0.5">PAV<tspan font-weight="300" fill="#75C200" dx="1.6">GROUP</tspan></text>
+<text x="45.5" y="49" text-anchor="middle" font-size="2.3" fill="#69686D" letter-spacing="1.25">ELECTRICAL SOLUTIONS</text>
+<rect x="0" y="54.5" width="91" height="6.5" fill="#75C200"/>
 </g></svg>
