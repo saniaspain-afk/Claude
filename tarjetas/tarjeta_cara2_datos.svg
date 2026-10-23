@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="91mm" height="61mm" viewBox="0 0 91 61"><g font-family="Inter, Arial, Helvetica, sans-serif"><rect width="91" height="61" fill="#FFFFFF"/>
-<rect x="8" y="7.6" width="9.4" height="9.4" rx="2.35" fill="#14171C"/><path transform="translate(10.9516,9.386000000000001) scale(0.09713333333333334)" d="M22 0 L6 34 L16 34 L10 60 L30 22 L19 22 Z" fill="#B7FF2E"/>
-<text x="19.6" y="14.9" font-size="5.4" font-weight="800" fill="#14171C">PAV<tspan font-style="italic" font-weight="400" fill="#5B6470" dx="0.6">GROUP</tspan></text>
+<path transform="translate(6.74,6.4) scale(0.21)" d="M22 0 L6 34 L16 34 L10 60 L30 22 L19 22 Z" fill="#B7FF2E"/>
+<text x="14.9" y="14.9" font-size="5.4" font-weight="800" fill="#14171C">PAV<tspan font-style="italic" font-weight="400" fill="#5B6470" dx="0.6">GROUP</tspan></text>
 <text x="8" y="22" font-size="2.3" fill="#5B6470">Electricista en Marbella y toda la Costa del Sol</text>
 <rect x="8" y="24" width="75" height="0.8" fill="#B7FF2E"/>
 <text x="8" y="31.8" font-size="4.3" font-weight="700" fill="#14171C">+34 693 806 652</text>
