@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="91mm" height="61mm" viewBox="0 0 91 61"><defs><clipPath id="c"><rect width="91" height="61"/></clipPath></defs><g font-family="Inter, Arial, Helvetica, sans-serif" clip-path="url(#c)"><rect width="91" height="61" fill="#14171C"/>
-<path transform="translate(55,-17) scale(1.55)" d="M22 0 L6 34 L16 34 L10 60 L30 22 L19 22 Z" fill="#B7FF2E"/>
-<text x="8" y="31" font-size="8" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">PAV<tspan font-weight="300" fill="#B7FF2E" dx="1.6">GROUP</tspan></text>
+<path transform="translate(55,-17) scale(1.55)" d="M22 0 L6 34 L16 34 L10 60 L30 22 L19 22 Z" fill="#75C200"/>
+<text x="8" y="31" font-size="8" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">PAV<tspan font-weight="300" fill="#75C200" dx="1.6">GROUP</tspan></text>
 <text x="8" y="37.2" font-size="2.1" fill="#A9ADB4" letter-spacing="1.1">ELECTRICAL SOLUTIONS</text>
 </g></svg>
