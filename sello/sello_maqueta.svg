@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60mm" height="40mm" viewBox="0 0 60 40">
+  <!-- Maqueta sello rectangular 60x40 mm, un solo color (tinta azul). Datos de ejemplo. -->
+  <g fill="none" stroke="#1B3A8C" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0.6" y="0.6" width="58.8" height="38.8" rx="2.5" stroke-width="0.6"/>
+    <rect x="1.8" y="1.8" width="56.4" height="36.4" rx="1.8" stroke-width="0.25"/>
+    <!-- marcador de logo -->
+    <circle cx="10.5" cy="11" r="5.6" stroke-width="0.4" stroke-dasharray="1 0.8"/>
+    <line x1="4" y1="20.5" x2="56" y2="20.5" stroke-width="0.3"/>
+  </g>
+  <g fill="#1B3A8C" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="10.5" y="11.8" font-size="2.4" font-weight="700" opacity="0.8">LOGO</text>
+    <text x="37" y="9.2" font-size="3.9" font-weight="700">NOMBRE EMPRESA</text>
+    <text x="37" y="14" font-size="2.6">Razón Social, S.L.</text>
+    <text x="37" y="18.2" font-size="2.6" font-weight="700">CIF: B-12345678</text>
+    <text x="30" y="25" font-size="2.6">C/ Ejemplo, 12 · 28000 Madrid</text>
+    <text x="30" y="29.6" font-size="2.6">Tel. 600 000 000</text>
+    <text x="30" y="34.2" font-size="2.6">info@ejemplo.com · www.ejemplo.com</text>
+  </g>
+</svg>
