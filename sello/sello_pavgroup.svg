@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60mm" height="40mm" viewBox="0 0 60 40">
+  <!-- Sello rectangular 60x40 mm, un solo color (tinta azul). PAV GROUP / Dmytro Pavlyshyn -->
+  <g fill="none" stroke="#1B3A8C" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0.6" y="0.6" width="58.8" height="38.8" rx="2.5" stroke-width="0.6"/>
+    <rect x="1.8" y="1.8" width="56.4" height="36.4" rx="1.8" stroke-width="0.25"/>
+    <line x1="4" y1="18.6" x2="56" y2="18.6" stroke-width="0.3"/>
+  </g>
+  <g fill="#1B3A8C" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <path transform="translate(5.2,3.6) scale(0.235)" d="M22 0 L6 34 L16 34 L10 60 L30 22 L19 22 Z"/>
+    <text x="36" y="11.2" font-size="6.4" font-weight="700" letter-spacing="0.2">PAV<tspan font-style="italic" font-weight="400" dx="0.8">GROUP</tspan></text>
+    <text x="36" y="15.8" font-size="2.3" letter-spacing="0.35">ELECTRICISTA · MARBELLA</text>
+    <text x="30" y="23" font-size="2.9" font-weight="700">Dmytro Pavlyshyn · NIE Y2945402J</text>
+    <text x="30" y="26.8" font-size="2.4">Urb. La Reserva de Marbella, Fase II</text>
+    <text x="30" y="30.2" font-size="2.4">Manzana 3, Bloque 4, 4302 · 29604 Marbella</text>
+    <text x="30" y="34.4" font-size="2.4">+34 693 806 652 · admin@pavgroup.es</text>
+  </g>
+</svg>
