@@ -1,0 +1,302 @@
+<title>Mi Ciclo</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=DM+Sans:wght@400;500;700&display=swap">
+<style>
+/* Layout: una columna estrecha tipo cuaderno clínico; el día del ciclo manda arriba, el registro abajo. */
+:root{
+  --bg:#F3F5F7; --card:#FFFFFF; --ink:#1C2430; --muted:#5B6675; --line:#DCE1E7;
+  --period:#D6455D; --ovu:#1F8A8A; --warn:#B7791F; --ok:#2F855A; --soft:#EAEFF4;
+  --display:'Fraunces',Georgia,serif; --body:'DM Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#12161C; --card:#1A2028; --ink:#E8ECF1; --muted:#9AA6B5; --line:#2A323D;
+  --period:#F0687E; --ovu:#4DC3C3; --warn:#E0A84B; --ok:#58C08A; --soft:#222A34; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12161C; --card:#1A2028; --ink:#E8ECF1; --muted:#9AA6B5; --line:#2A323D;
+  --period:#F0687E; --ovu:#4DC3C3; --warn:#E0A84B; --ok:#58C08A; --soft:#222A34; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--body);
+  padding-block:20px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+h1,h2{font-family:var(--display);margin:0;text-wrap:balance}
+h2{font-size:18px;font-weight:700}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.top h1{font-size:22px}
+.date{color:var(--muted);font-size:13px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.hero{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.day{font-family:var(--display);font-size:64px;line-height:1;font-weight:700;color:var(--period);font-variant-numeric:tabular-nums}
+.day small{display:block;font:500 12px var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.hero p{margin:0;min-width:0;flex:1 1 220px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{font-size:12px;font-weight:500;padding:3px 10px;border-radius:99px;background:var(--soft);color:var(--ink)}
+.chip.warn{color:var(--warn)} .chip.ok{color:var(--ok)} .chip.ovu{color:var(--ovu)}
+.advice{border-left:4px solid var(--ovu)}
+.advice.alert{border-left-color:var(--period)}
+.advice p,.card p{margin:0}
+.muted{color:var(--muted);font-size:13px}
+svg{width:100%;height:auto;display:block}
+svg text{fill:var(--muted);font:11px var(--body)}
+.bar{fill:var(--period)} .bar.cur{fill:var(--period);opacity:.45} .bar.spot{fill:var(--muted);opacity:.5}
+.ref{stroke:var(--ovu);stroke-width:1.5;stroke-dasharray:4 3}
+form{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+form .full{grid-column:1/-1}
+label{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--muted);min-width:0}
+input,select,button{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:9px 10px;min-width:0}
+button{background:var(--period);color:#fff;border-color:transparent;font-weight:700;cursor:pointer}
+button.ghost{background:transparent;color:var(--muted);border-color:var(--line);font-weight:500;padding:3px 10px;font-size:12px}
+:focus-visible{outline:2px solid var(--ovu);outline-offset:2px}
+ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+li{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 0;border-top:1px solid var(--line)}
+li:first-child{border-top:0}
+li span{min-width:0;overflow-wrap:anywhere}
+details{border-top:1px solid var(--line);padding:10px 0}
+details:first-of-type{border-top:0}
+summary{cursor:pointer;font-weight:700}
+details p,details ul{margin-top:8px;color:var(--ink)}
+details ul{list-style:disc;padding-left:20px;gap:4px}
+details li{display:list-item;border:0;padding:0}
+</style>
+
+<main>
+  <div class="top"><h1>Mi ciclo</h1><span class="date" id="hoy"></span></div>
+
+  <section class="card" aria-live="polite">
+    <div class="hero">
+      <div class="day"><small>Día del ciclo</small><span id="dia">…</span></div>
+      <p id="resumen">Cargando tus datos…</p>
+    </div>
+    <div class="chips" id="chips"></div>
+  </section>
+
+  <section class="card advice" id="consejo"><h2>Qué hacer ahora</h2><p id="consejoTxt">…</p></section>
+
+  <section class="card">
+    <h2>Longitud de tus ciclos</h2>
+    <div id="grafico"></div>
+    <p class="muted">La línea punteada marca 35 días. Los ciclos más largos son típicos del ovario poliquístico y hacen que el calendario no sirva para predecir la ovulación.</p>
+  </section>
+
+  <section class="card">
+    <h2>Anotar</h2>
+    <form id="form">
+      <label>Qué<select id="tipo">
+        <option value="sexo">Relación sin protección</option>
+        <option value="inicio">Me ha bajado la regla</option>
+        <option value="temp">Temperatura basal</option>
+        <option value="lh">Test de ovulación (LH)</option>
+        <option value="prueba">Test de embarazo</option>
+        <option value="flujo">Flujo</option>
+        <option value="sintoma">Síntoma / nota</option>
+      </select></label>
+      <label>Fecha<input type="date" id="fecha"></label>
+      <label class="full" id="valWrap" hidden><span id="valLbl">Valor</span>
+        <select id="valSel" hidden></select>
+        <input id="valTxt" type="text" hidden autocomplete="off"></label>
+      <button class="full" type="submit">Guardar</button>
+    </form>
+    <p class="muted" id="msg" role="status"></p>
+  </section>
+
+  <section class="card">
+    <h2>Últimos registros</h2>
+    <ul id="lista"><li><span class="muted">Aún no hay registros. Empieza por las relaciones sin protección y la temperatura de cada mañana.</span></li></ul>
+  </section>
+
+  <section class="card">
+    <h2>Por si pasa</h2>
+    <details><summary>Primeras señales de embarazo</summary>
+      <p>Retraso de la regla, pechos sensibles, náuseas, cansancio y ganas de orinar más. Con ciclos irregulares el retraso es difícil de notar, y casi todo lo demás se parece a los síntomas premenstruales o del SOP. Solo el test lo confirma.</p></details>
+    <details><summary>Cómo y cuándo hacer el test</summary>
+      <ul><li>Orina de la mañana, desde 14 días después de la última relación sin protección.</li>
+      <li>Si sale negativo y la regla no baja, repítelo a los 3–7 días.</li>
+      <li>Con SOP puedes ovular sin haber tenido regla antes: no hace falta "estar retrasada" para que sea posible.</li></ul></details>
+    <details><summary>Si sale positivo</summary>
+      <ul><li>Pide cita con tu médica o ginecología pronto.</li>
+      <li>Empieza con ácido fólico, 400 µg al día, salvo que te indiquen otra dosis.</li>
+      <li>Evita alcohol y consulta cualquier medicación con tu médica o farmacia.</li>
+      <li>Dolor fuerte en un lado del abdomen, sangrado abundante o mareo con test positivo: urgencias.</li></ul></details>
+    <details><summary>Cuándo consultar aunque no lo busquéis</summary>
+      <ul><li>Regla ausente más de 3 meses, sangrados muy abundantes o dolor intenso.</li>
+      <li>Si más adelante queréis buscarlo, ginecología puede valorar la ovulación y la resistencia a la insulina antes de empezar.</li></ul></details>
+    <p class="muted">Esta página orienta y no diagnostica. No sirve como anticonceptivo.</p>
+  </section>
+</main>
+
+<script>
+const MESES=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+const $=id=>document.getElementById(id);
+const pad=n=>String(n).padStart(2,'0');
+const iso=d=>d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
+const parse=s=>{const[a,b,c]=s.split('-').map(Number);return new Date(a,b-1,c)};
+const dias=(a,b)=>Math.round((parse(b)-parse(a))/864e5);
+const sumar=(s,n)=>{const d=parse(s);d.setDate(d.getDate()+n);return iso(d)};
+const corto=s=>{const d=parse(s);return d.getDate()+' '+MESES[d.getMonth()]};
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const HOY=iso(new Date());
+let db=null,ciclos=[],registro=[],cargado=false;
+
+const TIPOS={
+  sexo:{n:'Relación sin protección'},
+  inicio:{n:'Regla',lbl:'Días de regla',ph:'5'},
+  temp:{n:'Temperatura',lbl:'Grados (°C)',ph:'36.50'},
+  lh:{n:'Test LH',lbl:'Resultado',op:['positivo','negativo']},
+  prueba:{n:'Test de embarazo',lbl:'Resultado',op:['negativo','positivo']},
+  flujo:{n:'Flujo',lbl:'Tipo',op:['clara de huevo','cremoso','acuoso','blanco grumoso','seco']},
+  sintoma:{n:'Nota',lbl:'Qué notas',ph:'Dolor, náuseas, pechos sensibles…'}
+};
+
+function longitudes(fusionar){
+  let ini=ciclos.map(c=>c.inicio);
+  if(fusionar) ini=ciclos.filter((c,i)=>i===0||c.dias>2).map(c=>c.inicio);
+  const out=[];for(let i=1;i<ini.length;i++)out.push(dias(ini[i-1],ini[i]));
+  return out;
+}
+const mediana=a=>{const s=[...a].sort((x,y)=>x-y),m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2};
+
+function subidaTermica(){
+  const t=registro.filter(r=>r.tipo==='temp').map(r=>[r.fecha,parseFloat(String(r.valor).replace(',','.'))])
+    .filter(x=>!isNaN(x[1])).sort((a,b)=>a[0]<b[0]?-1:1);
+  let hit=null;
+  for(let i=6;i<t.length-2;i++){
+    const base=Math.max(...t.slice(i-6,i).map(x=>x[1]));
+    if(t.slice(i,i+3).every(x=>x[1]>=base+0.2))hit=t[i][0];
+  }
+  return hit;
+}
+
+function render(){
+  $('hoy').textContent=corto(HOY)+' '+parse(HOY).getFullYear();
+  if(!ciclos.length){
+    $('dia').textContent='–';
+    $('resumen').textContent=cargado?'Aún no hay ciclos guardados. Anota el primer día de tu última regla en el formulario.':'Cargando tus datos…';
+    $('chips').innerHTML='';$('consejoTxt').textContent='Sin datos todavía.';
+    $('grafico').innerHTML='';renderLista();return;
+  }
+  const actual=ciclos[ciclos.length-1].inicio;
+  const dia=dias(actual,HOY)+1;
+  const todas=longitudes(false), fus=longitudes(true), ref=fus.length?fus:todas;
+  $('dia').textContent=dia;
+
+  let txt='Tu ciclo empezó el '+corto(actual)+'.';
+  const chips=[];
+  if(ref.length){
+    const min=Math.min(...ref),max=Math.max(...ref),med=Math.round(mediana(ref));
+    txt+=' La regla puede bajar entre el '+corto(sumar(actual,min))+' y el '+corto(sumar(actual,max))+
+      ' (lo más típico, hacia el '+corto(sumar(actual,med))+'). El rango es amplio porque tus ciclos varían mucho.';
+    if(dia>max)chips.push(['Más largo que cualquier ciclo anterior','warn']);
+    if(max-min>9||ref.some(x=>x>35))chips.push(['Ciclos irregulares','warn']);
+  }
+  $('resumen').textContent=txt;
+
+  const sub=subidaTermica();
+  const lh=registro.filter(r=>r.tipo==='lh'&&String(r.valor).startsWith('pos')).map(r=>r.fecha).sort().pop();
+  if(sub)chips.push(['Ovulación probable desde '+corto(sub),'ovu']);
+  else if(lh)chips.push(['LH positivo el '+corto(lh)+' (confirmar con temperatura)','ovu']);
+  else chips.push(['Sin datos de ovulación','']);
+  $('chips').innerHTML=chips.map(c=>'<span class="chip '+c[1]+'">'+esc(c[0])+'</span>').join('');
+
+  // consejo de test
+  const sexos=registro.filter(r=>r.tipo==='sexo').map(r=>r.fecha).sort();
+  const pruebas=registro.filter(r=>r.tipo==='prueba').sort((a,b)=>a.fecha<b.fecha?-1:1);
+  const box=$('consejo');box.classList.remove('alert');
+  let msg;
+  if(pruebas.length&&String(pruebas[pruebas.length-1].valor).startsWith('pos')){
+    msg='Tienes un test positivo registrado. Pide cita con tu médica o ginecología pronto y empieza con ácido fólico (400 µg al día).';box.classList.add('alert');
+  }else if(!sexos.length){
+    msg='Anota las fechas de las relaciones sin protección para que pueda decirte cuándo un test es fiable. Tu informe de Flo solo traía conteos por día de ciclo.';
+  }else{
+    const ult=sexos[sexos.length-1],desde=dias(ult,HOY),apto=sumar(ult,14);
+    if(desde<14) msg='Última relación sin protección: '+corto(ult)+' (hace '+desde+' días). Un test ahora podría salir negativo aunque haya embarazo. Fecha mínima fiable: '+corto(apto)+'.';
+    else if(ref.length&&dia>Math.min(...ref)&&dia>=33){
+      msg='Han pasado '+desde+' días desde la última relación sin protección y la regla no ha bajado: haz un test de embarazo con la orina de la mañana. Si es negativo y sigue sin bajar, repítelo en 3–7 días.';box.classList.add('alert');
+    }else msg='Han pasado más de 14 días desde la última relación sin protección ('+corto(ult)+'). Si quieres comprobarlo, un test ya es fiable.';
+  }
+  $('consejoTxt').textContent=msg;
+  renderGrafico(actual,dia);renderLista();
+}
+
+function renderGrafico(actual,dia){
+  const filas=[];
+  for(let i=0;i<ciclos.length;i++){
+    const c=ciclos[i],sig=ciclos[i+1];
+    filas.push({ini:c.inicio,len:sig?dias(c.inicio,sig.inicio):dia,actual:!sig,manchado:c.dias>2?false:i>0});
+  }
+  const esc_=Math.max(60,...filas.map(f=>f.len)),W=600,L=52,R=48,rowH=28,H=filas.length*rowH+30;
+  const x=v=>L+(W-L-R)*v/esc_;
+  let s='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Longitud de cada ciclo en días">';
+  filas.forEach((f,i)=>{
+    const y=i*rowH+8,w=x(f.len)-L;
+    s+='<text x="0" y="'+(y+13)+'">'+corto(f.ini)+'</text>';
+    s+='<rect class="bar'+(f.actual?' cur':f.manchado?' spot':'')+'" x="'+L+'" y="'+y+'" width="'+w+'" height="18" rx="3"/>';
+    s+='<text x="'+(L+w+6)+'" y="'+(y+13)+'">'+f.len+' d'+(f.actual?' (hoy)':'')+'</text>';
+  });
+  const rx=x(35);
+  s+='<line class="ref" x1="'+rx+'" y1="2" x2="'+rx+'" y2="'+(H-22)+'"/><text x="'+(rx-8)+'" y="'+(H-6)+'">35 d</text>';
+  s+='</svg>';
+  $('grafico').innerHTML=s;
+}
+
+function renderLista(){
+  const items=[...registro].sort((a,b)=>a.fecha<b.fecha?1:-1).slice(0,20);
+  const filasCiclo=[...ciclos].sort((a,b)=>a.inicio<b.inicio?1:-1).slice(0,3)
+    .map(c=>({fecha:c.inicio,tipo:'inicio',valor:c.dias,_ciclo:true}));
+  const todo=[...items,...filasCiclo].sort((a,b)=>a.fecha<b.fecha?1:-1);
+  if(!todo.length)return;
+  $('lista').innerHTML=todo.map((r,i)=>{
+    const t=TIPOS[r.tipo]||{n:r.tipo};
+    const v=r.valor!==''&&r.valor!=null?' · '+esc(r.valor)+(r.tipo==='inicio'?' días':r.tipo==='temp'?' °C':''):'';
+    return '<li><span><b>'+corto(r.fecha)+'</b> · '+esc(t.n)+v+'</span><button type="button" class="ghost" data-i="'+i+'">Borrar</button></li>';
+  }).join('');
+  $('lista').dataset.items=JSON.stringify(todo.map(r=>({id:r.id||null,fecha:r.fecha,ciclo:!!r._ciclo})));
+}
+
+$('lista').addEventListener('click',async e=>{
+  const b=e.target.closest('button[data-i]');if(!b||!db)return;
+  if(b.dataset.ok!=='1'){b.dataset.ok='1';b.textContent='¿Seguro?';setTimeout(()=>{b.dataset.ok='';b.textContent='Borrar'},3000);return}
+  const it=JSON.parse($('lista').dataset.items)[+b.dataset.i];
+  try{
+    if(it.ciclo)await db.collection('ciclos').doc(it.fecha).delete();
+    else await db.collection('registro').doc(it.id).delete();
+  }catch(err){$('msg').textContent='No se pudo borrar. Inténtalo de nuevo.'}
+});
+
+function ajustarForm(){
+  const t=TIPOS[$('tipo').value];
+  const w=$('valWrap'),sel=$('valSel'),txt=$('valTxt');
+  w.hidden=!t.lbl;$('valLbl').textContent=t.lbl||'';
+  sel.hidden=!t.op;txt.hidden=!!t.op||!t.lbl;
+  if(t.op)sel.innerHTML=t.op.map(o=>'<option>'+o+'</option>').join('');
+  if(!t.op){txt.value='';txt.placeholder=t.ph||'';}
+}
+$('tipo').addEventListener('change',ajustarForm);
+$('fecha').value=HOY;$('fecha').max=HOY;ajustarForm();
+
+$('form').addEventListener('submit',async e=>{
+  e.preventDefault();
+  if(!db){$('msg').textContent='El guardado no está disponible en esta vista.';return}
+  const tipo=$('tipo').value,t=TIPOS[tipo],fecha=$('fecha').value;
+  if(!fecha){$('msg').textContent='Elige una fecha.';return}
+  let valor='';if(t.lbl)valor=(t.op?$('valSel').value:$('valTxt').value).trim();
+  if(tipo==='temp'&&isNaN(parseFloat(valor.replace(',','.')))){$('msg').textContent='Escribe la temperatura, por ejemplo 36.5.';return}
+  try{
+    if(tipo==='inicio')await db.collection('ciclos').doc(fecha).set({inicio:fecha,dias:parseInt(valor)||0});
+    else await db.collection('registro').add({fecha,tipo,valor});
+    $('msg').textContent='Guardado.';$('valTxt').value='';
+  }catch(err){$('msg').textContent=err&&err.code==='quota_exceeded'?'Se llenó el almacenamiento.':'No se pudo guardar. Inténtalo de nuevo.'}
+});
+
+render();
+(async()=>{
+  db=await window.claude.use('db');
+  if(!db){$('resumen').textContent='Esta vista no puede guardar datos. Ábrela desde tu sesión de Claude.';return}
+  const timer=setTimeout(()=>{if(!cargado)$('resumen').textContent='Los datos tardan en llegar. Puede que no estén al día.'},10000);
+  const listo={c:false,r:false};
+  const fin=k=>{listo[k]=true;if(listo.c&&listo.r){cargado=true;clearTimeout(timer)}render()};
+  db.collection('ciclos').onSnapshot(s=>{
+    ciclos=s.docs.map(d=>({id:d.id,...d.data()})).filter(c=>c.inicio).sort((a,b)=>a.inicio<b.inicio?-1:1);fin('c')},
+    ()=>{$('resumen').textContent='No se pudieron leer los datos.'});
+  db.collection('registro').onSnapshot(s=>{
+    registro=s.docs.map(d=>({id:d.id,...d.data()})).filter(r=>r.fecha&&r.tipo);fin('r')},
+    ()=>{});
+})();
+</script>
