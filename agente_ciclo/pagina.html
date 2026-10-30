@@ -206,7 +206,11 @@ function render(){
     msg='Anota las fechas de las relaciones sin protección para que pueda decirte cuándo un test es fiable. Tu informe de Flo solo traía conteos por día de ciclo.';
   }else{
     const ult=sexos[sexos.length-1],desde=dias(ult,HOY),apto=sumar(ult,14);
-    if(desde<14) msg='Última relación sin protección: '+corto(ult)+' (hace '+desde+' días). Un test ahora podría salir negativo aunque haya embarazo. Fecha mínima fiable: '+corto(apto)+'.';
+    if(desde<14){
+      const pend=[...new Set(sexos.filter(s=>dias(s,HOY)<14))],prim=pend[0];
+      msg='Última relación sin protección: '+corto(ult)+' (hace '+desde+' días). Un test hoy no cubre las de los últimos 14 días. '+
+        (pend.length>1?'Para la del '+corto(prim)+' es fiable desde el '+corto(sumar(prim,14))+'; para la del '+corto(ult)+', desde el '+corto(apto)+'.':'Fecha mínima fiable: '+corto(apto)+'.');
+    }
     else if(ref.length&&dia>Math.min(...ref)&&dia>=33){
       msg='Han pasado '+desde+' días desde la última relación sin protección y la regla no ha bajado: haz un test de embarazo con la orina de la mañana. Si es negativo y sigue sin bajar, repítelo en 3–7 días.';box.classList.add('alert');
     }else msg='Han pasado más de 14 días desde la última relación sin protección ('+corto(ult)+'). Si quieres comprobarlo, un test ya es fiable.';
