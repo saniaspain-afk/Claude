@@ -1,6 +1,6 @@
 presupuesto,descripcion,cantidad,precio_unitario
 1,"Cargador V2C Alva doble 7,4 kW monofásico con protecciones eléctricas integradas, 2 mangueras Tipo 2 de 5 m, lector RFID, Ethernet/4G",1,2392.50
-1,Tarjetas RFID de acceso para el cargador,3,5.18
+1,Llaveros RFID (3 uds) para arrancar y bloquear la carga; la Alva incluye además 1 tarjeta RFID,3,4.50
 1,Pinza amperimétrica (CT) para el balanceador V2C ControlBox,1,39.41
 1,"Línea única de alimentación RZ1-K (AS) 0,6/1 kV 3G25 mm² cuadro vivienda - estación, m",15,24.00
 1,"Canalización y fijaciones de la línea de fuerza, m",15,6.00
@@ -18,7 +18,7 @@ presupuesto,descripcion,cantidad,precio_unitario
 1,"CIE (certificado de instalación eléctrica) de la estación de recarga, memoria técnica ITC-BT-52 y registro en Industria",1,225.00
 1,"CIE de la vivienda para el aumento de potencia a 14,49 kW en periodo P2 y gestión con Endesa",1,300.00
 2,"Cargador V2C Alva doble 7,4 kW monofásico sin protecciones integradas, 2 mangueras Tipo 2 de 5 m, lector RFID, Ethernet/4G",1,1942.50
-2,Tarjetas RFID de acceso para el cargador,3,5.18
+2,Llaveros RFID (3 uds) para arrancar y bloquear la carga; la Alva incluye además 1 tarjeta RFID,3,4.50
 2,Pinza amperimétrica (CT) para el balanceador V2C ControlBox,1,39.41
 2,"Dos líneas de alimentación RZ1-K (AS) 0,6/1 kV 3G6 mm², una por toma, cuadro vivienda - estación, m totales",30,4.59
 2,"Canalización y fijaciones de las dos líneas de fuerza, m",15,9.00

@@ -7,7 +7,7 @@ Valores calculados con los parámetros de la hoja `Parámetros` del Excel (líne
 | # | Descripción | Cant. | P. unit. | Importe |
 |---|---|---:|---:|---:|
 | 1 | Cargador V2C Alva doble 7.4 kW monofásico con protecciones eléctricas integradas. 2 mangueras Tipo 2 de 5 m. lector RFID. Ethernet/4G | 1 | 2.392,50 € | 2.392,50 € |
-| 2 | Tarjetas RFID de acceso para el cargador | 3 | 5,18 € | 15,54 € |
+| 2 | Llaveros RFID (3 uds) para arrancar y bloquear la carga; la Alva incluye además 1 tarjeta RFID | 3 | 4,50 € | 13,50 € |
 | 3 | Pinza amperimétrica (CT) para el balanceador V2C ControlBox | 1 | 39,41 € | 39,41 € |
 | 4 | Línea única de alimentación RZ1-K (AS) 0.6/1 kV 3G25 mm² cuadro vivienda - estación. m | 15 | 24,00 € | 360,00 € |
 | 5 | Canalización y fijaciones de la línea de fuerza. m | 15 | 6,00 € | 90,00 € |
@@ -25,16 +25,16 @@ Valores calculados con los parámetros de la hoja `Parámetros` del Excel (líne
 | 17 | CIE (certificado de instalación eléctrica) de la estación de recarga. memoria técnica ITC-BT-52 y registro en Industria | 1 | 225,00 € | 225,00 € |
 | 18 | CIE de la vivienda para el aumento de potencia a 14.49 kW en periodo P2 y gestión con Endesa | 1 | 300,00 € | 300,00 € |
 
-Base imponible **5.165,57 €** · IVA 21 % 1.084,77 € · **TOTAL 6.250,34 €**
+Base imponible **5.163,53 €** · IVA 21 % 1.084,34 € · **TOTAL 6.247,87 €**
 
-_Líneas con ESTIMACIÓN a validar: 4, 5, 10, 12, 15, 17, 18._
+_Líneas con ESTIMACIÓN a validar: 2, 4, 5, 10, 12, 15, 17, 18._
 
 ## Presupuesto 2 Alva SIN protecciones
 
 | # | Descripción | Cant. | P. unit. | Importe |
 |---|---|---:|---:|---:|
 | 1 | Cargador V2C Alva doble 7.4 kW monofásico sin protecciones integradas. 2 mangueras Tipo 2 de 5 m. lector RFID. Ethernet/4G | 1 | 1.942,50 € | 1.942,50 € |
-| 2 | Tarjetas RFID de acceso para el cargador | 3 | 5,18 € | 15,54 € |
+| 2 | Llaveros RFID (3 uds) para arrancar y bloquear la carga; la Alva incluye además 1 tarjeta RFID | 3 | 4,50 € | 13,50 € |
 | 3 | Pinza amperimétrica (CT) para el balanceador V2C ControlBox | 1 | 39,41 € | 39,41 € |
 | 4 | Dos líneas de alimentación RZ1-K (AS) 0.6/1 kV 3G6 mm². una por toma. cuadro vivienda - estación. m totales | 30 | 4,59 € | 137,70 € |
 | 5 | Canalización y fijaciones de las dos líneas de fuerza. m | 15 | 9,00 € | 135,00 € |
@@ -53,9 +53,9 @@ _Líneas con ESTIMACIÓN a validar: 4, 5, 10, 12, 15, 17, 18._
 | 18 | CIE (certificado de instalación eléctrica) de la estación de recarga. memoria técnica ITC-BT-52 y registro en Industria | 1 | 225,00 € | 225,00 € |
 | 19 | CIE de la vivienda para el aumento de potencia a 14.49 kW en periodo P2 y gestión con Endesa | 1 | 300,00 € | 300,00 € |
 
-Base imponible **4.889,93 €** · IVA 21 % 1.026,89 € · **TOTAL 5.916,82 €**
+Base imponible **4.887,89 €** · IVA 21 % 1.026,46 € · **TOTAL 5.914,35 €**
 
-_Líneas con ESTIMACIÓN a validar: 5, 11, 13, 16, 18, 19._
+_Líneas con ESTIMACIÓN a validar: 2, 5, 11, 13, 16, 18, 19._
 
 ---
 
@@ -65,7 +65,7 @@ Líneas: presupuesto 1 / presupuesto 2.
 | Petición de la clienta | Línea | Estado |
 |---|---|---|
 | Alva doble con **2 mangueras Tipo 2 de 5 m** (no tomas), 2 x 7,4 kW | 1 / 1 | Incluido |
-| **RFID** para arrancar y bloquear (3 llaveros) | 2 / 2 | Incluido como 3 tarjetas: V2C vende tarjeta, no llavero. **Confirmar con V2C** |
+| **RFID** para arrancar y bloquear: 3 llaveros | 2 / 2 | **Incluidos 3 llaveros** (más la tarjeta que trae la Alva). V2C no los vende: verifica con V2C que el lector los lee antes de pedirlos |
 | Balanceo de potencia con **ControlBox y pinza** | 3 / 3 | Pinza incluida; el ControlBox viene con la Alva |
 | **Ethernet** por cable, sin Wi-Fi en el garaje (adiós a los 200 € de Wi-Fi) | 9 / 10 | Incluido |
 | Ethernet y cable del ControlBox en **tubo aparte** de la fuerza, terminando dentro de la Alva, sin cajas ni tomas en el garaje | 10 / 11 | Incluido |
@@ -103,7 +103,7 @@ Precios sin IVA; IVA 21 % en el total. Presupuesto basado en una línea de X m, 
 
 Не входят: сборы Industria и Endesa, настройка вашего роутера.
 
-RFID: V2C поставляет карты, брелки уточняем. Сроки зависят от Endesa и Industria, до Рождества не гарантируем, но постараемся.
+RFID: включили 3 брелка (в комплекте с Alva идёт ещё 1 карта). Сроки зависят от Endesa и Industria, до Рождества не гарантируем, но постараемся.
 
 С уважением,
 Дмитрий, PAV GROUP
