@@ -1,38 +1,18 @@
 presupuesto,descripcion,cantidad,precio_unitario
-1,"Cargador V2C Alva doble 7,4 kW monofásico con protecciones eléctricas integradas, 2 mangueras Tipo 2 de 5 m, lector RFID, Ethernet/4G",1,2392.50
-1,Llaveros RFID (3 uds) para arrancar y bloquear la carga; la Alva incluye además 1 tarjeta RFID,3,4.50
-1,Pinza amperimétrica (CT) para el balanceador V2C ControlBox,1,39.41
-1,"Línea única de alimentación RZ1-K (AS) 0,6/1 kV 3G25 mm² cuadro vivienda - estación, m",15,24.00
-1,"Canalización y fijaciones de la línea de fuerza, m",15,6.00
-1,Magnetotérmico 2P C63 para la línea de la estación,1,69.68
-1,Diferencial 2P 63 A 30 mA tipo A superinmunizado exclusivo de la estación,1,183.00
-1,Protector contra sobretensiones permanente y transitorio,1,111.03
-1,"Cable de datos UTP Cat6 (ControlBox y Ethernet del router hasta el cargador), m",30,1.14
-1,"Canalización independiente para cables de comunicaciones, m",15,3.75
-1,"Línea independiente toma de garaje: cable 3G2,5 mm² libre de halógenos y canalización, m",15,5.10
-1,"Toma de garaje: magnetotérmico C16, diferencial 30 mA tipo A y base de enchufe con llave/cierre",1,105.00
-1,Sustitución del IGA por magnetotérmico 2P 63 A,1,69.68
-1,"Sustitución de diferenciales del cuadro de vivienda para la nueva potencia, uds",2,58.89
-1,"Material auxiliar (bornas, punteras, cajas, regletas, fijaciones)",1,120.00
-1,"Mano de obra: instalación, conexionado, configuración y puesta en marcha (horas)",20,40.00
-1,"CIE (certificado de instalación eléctrica) de la estación de recarga, memoria técnica ITC-BT-52 y registro en Industria",1,225.00
-1,"CIE de la vivienda para el aumento de potencia a 14,49 kW en periodo P2 y gestión con Endesa",1,300.00
-2,"Cargador V2C Alva doble 7,4 kW monofásico sin protecciones integradas, 2 mangueras Tipo 2 de 5 m, lector RFID, Ethernet/4G",1,1942.50
-2,Llaveros RFID (3 uds) para arrancar y bloquear la carga; la Alva incluye además 1 tarjeta RFID,3,4.50
-2,Pinza amperimétrica (CT) para el balanceador V2C ControlBox,1,39.41
-2,"Dos líneas de alimentación RZ1-K (AS) 0,6/1 kV 3G6 mm², una por toma, cuadro vivienda - estación, m totales",30,4.59
-2,"Canalización y fijaciones de las dos líneas de fuerza, m",15,9.00
-2,"Magnetotérmico 2P C32, uno por línea",2,27.05
-2,"Diferencial 2P 40 A 30 mA tipo A superinmunizado, uno por línea",2,58.89
-2,"Detector de fugas DC V2C (uno por toma, protección 6 mA CC)",2,121.23
-2,Protector contra sobretensiones permanente y transitorio,1,111.03
-2,"Cable de datos UTP Cat6 (ControlBox y Ethernet del router hasta el cargador), m",30,1.14
-2,"Canalización independiente para cables de comunicaciones, m",15,3.75
-2,"Línea independiente toma de garaje: cable 3G2,5 mm² libre de halógenos y canalización, m",15,5.10
-2,"Toma de garaje: magnetotérmico C16, diferencial 30 mA tipo A y base de enchufe con llave/cierre",1,105.00
-2,Sustitución del IGA por magnetotérmico 2P 63 A,1,69.68
-2,"Sustitución de diferenciales del cuadro de vivienda para la nueva potencia, uds",2,58.89
-2,"Material auxiliar (bornas, punteras, cajas, regletas, fijaciones)",1,150.00
-2,"Mano de obra: instalación, conexionado, configuración y puesta en marcha (horas)",24,40.00
-2,"CIE (certificado de instalación eléctrica) de la estación de recarga, memoria técnica ITC-BT-52 y registro en Industria",1,225.00
-2,"CIE de la vivienda para el aumento de potencia a 14,49 kW en periodo P2 y gestión con Endesa",1,300.00
+A,"Cargador V2C Alva doble 7,4 kW monofásico SIN protecciones integradas, 2 cables Tipo 2 de 5 m, lector RFID con 1 tarjeta, ControlBox y pinza amperimétrica incluidos, Ethernet/4G",1,1942.50
+A,Tarjetas RFID V2C adicionales (con la incluida suman 3),2,5.18
+A,"Dos líneas de alimentación independientes RZ1-K (AS) 0,6/1 kV 3G6 mm², una por toma, cuadro vivienda - cargador, m totales",30,4.59
+A,"Canalización y fijaciones, dos recorridos independientes, m totales",30,4.50
+A,"Magnetotérmico 2P C40 curva C, uno por línea (V2C: 1,25 x 32 A)",2,37.50
+A,"Diferencial 2P 40 A 30 mA tipo A superinmunizado, uno por línea (V2C: uno propio por estación)",2,58.89
+A,Protector contra sobretensiones permanentes y transitorias en el cuadro (ITC-BT-52 apartado 6.4),1,111.03
+A,"Cable de datos UTP Cat6 (ControlBox-Alva y red del router-Alva), m",30,1.14
+A,"Canalización independiente de la fuerza para los cables de comunicaciones, m",15,3.75
+A,"Línea independiente de la toma de garaje: cable 3G2,5 mm² RZ1-K (AS) y canalización, m",15,5.10
+A,"Toma de garaje: magnetotérmico C10, diferencial 30 mA tipo A y base de enchufe con llave",1,105.00
+A,Sustitución del IGA por magnetotérmico 2P 63 A,1,69.68
+A,"Sustitución de diferenciales del cuadro de la vivienda para la nueva potencia, uds",2,58.89
+A,"Material auxiliar (bornas, punteras cuadradas, cajas, regletas, fijaciones)",1,150.00
+A,"Mano de obra: instalación, conexionado, configuración y puesta en marcha (horas)",24,40.00
+A,"Memoria técnica de diseño y CIE de la estación de recarga (ITC-BT-52 y ITC-BT-04), tramitación TECI",1,225.00
+A,"CIE de la vivienda y gestión del aumento a 14,49 kW en periodo P2 (se factura solo si el boletín actual no admite esa potencia)",1,300.00
