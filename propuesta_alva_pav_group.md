@@ -23,7 +23,7 @@ Fuentes principales: [ITC-BT-52 consolidada (BOE-A-2014-13681)](https://www.boe.
 | 11 | **Doble alimentación en una estación:** no hay prohibición en el BOE. Falta confirmar si Industria/OCA piden señalización o aviso de dos fuentes en el cuadro | VERIFICAR con Delegación Territorial de Industria de Cádiz y tu OCA | Preguntar antes de ejecutar |
 | 12 | **LGA y derivación individual del edificio:** el diseñador debe comprobar que no se supera su intensidad admisible (ITC-BT-52, apartado 5); e-distribución comprueba antes de ampliar potencia si el suministro lo soporta | SEGURO | Coste no incluido si hay que cambiarlas |
 | 13 | **Comunidad:** punto de recarga privado en plaza individual solo exige comunicación previa a la comunidad; coste y consumo a cargo del interesado (LPH, art. 17.5) | SEGURO (texto consolidado) | Cliente comunica por escrito |
-| 14 | **RFID:** la Alva incluye 1 tarjeta. Llaveros no figuran en la documentación de Alva | SEGURO | 2 tarjetas adicionales = 3; pregunta a V2C por llaveros |
+| 14 | **Llaveros: sí son posibles, como e-Key Bluetooth (BLE), no como RFID.** La página oficial de V2C SmartLock dice que SmartLock existe en Trydan, Trydan Pro y Alva, que sirve con "llaveros y mandos, relojes inteligentes, tarjetas RFID/BLE" con **dirección MAC de Bluetooth fija**, y que en Alva "todas las versiones de firmware son compatibles con e-Key". Lo que Alva no admite es vincular un smartphone. El cargador se desbloquea al detectar el e-Key cerca y se bloquea al alejarlo. La Alva incluye además 1 tarjeta RFID. **Corrijo un error mío anterior:** dije que los e-Keys eran solo de Trydan | SEGURO (páginas V2C SmartLock y V2C Cloud) | 3 llaveros BLE en el presupuesto. Si quieren llavero **RFID**, no hay dato: V2C solo documenta tarjetas |
 | 15 | **Posición del cargador:** el punto de conexión debe estar junto a la plaza a alimentar (5.4). No sé cuántas plazas tienen ni dónde | SEGURO / dato que falta | Preguntar |
 | 16 | **Costes minoristas:** todos mis costes son PVP (V2C, Obramat, Leroy). Con tarifa de instalador el margen real sube. El coste de la hora (26,67 €) es un supuesto mío | — | Pedir tarifas y tu coste/hora real |
 
@@ -54,7 +54,7 @@ La ITC-BT-52 (3.2) admite en garajes de edificios el esquema 4a: circuito desde 
 |---|---|---|---|
 | Documentación V2C | Oficial: dos entradas (págs. 9 y 19) | Una entrada; calibre del seccionador **no publicado** | No aplica |
 | ITC-BT-52 | Protección individual por punto de conexión; 7.360 W por circuito, dentro del límite de 9.200 W de 3.1 | Un circuito monofásico de 14,49 kW: 3.2 no repite el límite, pero riesgo de interpretación | Esquemas 2/3a (apartado 4.2): obra en zonas comunes y centralización de contadores |
-| Precio al cliente (IVA incl.) | **4.987,26 €** | 5.340,46 € | No calculado: depende de la distancia y de la comunidad |
+| Precio al cliente (IVA incl.) | **5.012,67 €** | 5.365,87 € | No calculado: depende de la distancia y de la comunidad |
 | Selectividad con IGA 63 A | Sí (C40 < 63 A) | No (C63 = IGA) | Según instalación |
 | Legalización | 1 CIE de la estación con 2 circuitos; VERIFICAR señalización de doble alimentación | 1 circuito | Mayor: centralización y comunidad |
 | Riesgo de rechazo | Bajo a medio | Medio (V2C + Industria) | Medio (comunidad y distribuidora) |
@@ -72,7 +72,7 @@ Supuestos de cantidades: línea de 7 m (14 m en total; dato tuyo del chat con Cr
 |---|---|---:|---|---:|---:|
 | | **Equipo** | | | | |
 | 1 | Cargador V2C Alva doble, 7,4 kW por toma (monofásico, 32 A), sin protecciones integradas y sin contador MID, 2 cables Type 2 de 5 m, lector RFID con 1 tarjeta, V2C ControlBox y pinza amperimétrica incluidos, Ethernet/Wi-Fi/4G, garantía del fabricante 3 años | 1 | ud | 1.684,00 € | 1.684,00 € |
-| 2 | Tarjetas RFID V2C adicionales (con la incluida suman 3) | 2 | ud | 7,50 € | 15,00 € |
+| 2 | Llaveros e-Key Bluetooth (BLE, dirección MAC fija) para bloquear y desbloquear por proximidad con V2C SmartLock (3 uds; la Alva incluye además 1 tarjeta RFID) | 3 | ud | 12,00 € | 36,00 € |
 | | **Líneas y canalización** | | | | |
 | 3 | Dos líneas de alimentación independientes, cable RZ1-K (AS) 0,6/1 kV 3G10 mm² (cobre, libre de halógenos), una por toma, del cuadro de la vivienda al cargador (m totales, a confirmar en visita) | 14 | m | 8,70 € | 121,80 € |
 | 4 | Tubo y fijaciones para las dos líneas de fuerza (m, a confirmar en visita) | 7 | m | 6,00 € | 42,00 € |
@@ -95,9 +95,9 @@ Supuestos de cantidades: línea de 7 m (14 m en total; dato tuyo del chat con Cr
 | 16 | Memoria técnica de diseño y CIE de la estación de recarga (ITC-BT-52, ITC-BT-04), registro en Industria (TECI, Junta de Andalucía) | 1 | ud | 300,00 € | 300,00 € |
 | 17 | CIE de la vivienda para 14,49 kW y gestión del aumento de potencia en periodo P2 con la comercializadora y e-distribución. Incluido en el precio total; si su boletín actual ya admite 14,49 kW, se descuenta íntegramente | 1 | ud | 290,00 € | 290,00 € |
 
-Subtotales: Equipo 1.699,00 € · Líneas y canalización 163,80 € · Protecciones y cuadro 644,00 € · Red y comunicaciones 43,40 € · Toma de garaje 181,50 € · Mano de obra 800,00 € · Legalización y gestiones 590,00 €
+Subtotales: Equipo 1.720,00 € · Líneas y canalización 163,80 € · Protecciones y cuadro 644,00 € · Red y comunicaciones 43,40 € · Toma de garaje 181,50 € · Mano de obra 800,00 € · Legalización y gestiones 590,00 €
 
-Base imponible **4.121,70 €** · IVA 21 % 865,56 € · **TOTAL 4.987,26 €**
+Base imponible **4.142,70 €** · IVA 21 % 869,97 € · **TOTAL 5.012,67 €**
 
 **Detector de fugas DC V2C (opcional, no incluido en el total):** 2 uds a 122 € cada una + IVA, solo si V2C confirma que la versión sin protecciones lo necesita.
 
@@ -106,7 +106,7 @@ Base imponible **4.121,70 €** · IVA 21 % 865,56 € · **TOTAL 4.987,26 €**
 |---|---|---:|---|---:|---:|
 | | **Equipo** | | | | |
 | 1 | Зарядная станция V2C Alva, 2 розетки по 7,4 кВт (однофазная, 32 А), без встроенных защит и без счётчика MID, 2 кабеля Type 2 по 5 м, считыватель RFID с 1 картой, V2C ControlBox и токовые клещи в комплекте, Ethernet/Wi-Fi/4G, гарантия производителя 3 года | 1 | ud | 1.684,00 € | 1.684,00 € |
-| 2 | Дополнительные RFID-карты V2C (вместе с комплектной — 3 шт.) | 2 | ud | 7,50 € | 15,00 € |
+| 2 | Брелки e-Key Bluetooth (BLE, фиксированный MAC) для блокировки и разблокировки по приближению, V2C SmartLock (3 шт.; в комплекте Alva ещё 1 RFID-карта) | 3 | ud | 12,00 € | 36,00 € |
 | | **Líneas y canalización** | | | | |
 | 3 | Две независимые питающие линии, кабель RZ1-K (AS) 0,6/1 кВ 3G10 мм² (медь, без галогенов), по одной на розетку, от щитка квартиры до станции (всего м, уточняется на визите) | 14 | m | 8,70 € | 121,80 € |
 | 4 | Труба и крепёж для двух силовых линий (м, уточняется на визите) | 7 | m | 6,00 € | 42,00 € |
@@ -129,9 +129,9 @@ Base imponible **4.121,70 €** · IVA 21 % 865,56 € · **TOTAL 4.987,26 €**
 | 16 | Техническая записка (MTD) и CIE зарядной станции (ITC-BT-52, ITC-BT-04), регистрация в Industria (TECI, Junta de Andalucía) | 1 | ud | 300,00 € | 300,00 € |
 | 17 | CIE квартиры на 14,49 кВт и оформление увеличения мощности в периоде P2 через comercializadora и e-distribución. Включено в общую цену; если ваш текущий boletín уже допускает 14,49 кВт, сумма вычитается полностью | 1 | ud | 290,00 € | 290,00 € |
 
-Subtotales: Equipo 1.699,00 € · Líneas y canalización 163,80 € · Protecciones y cuadro 644,00 € · Red y comunicaciones 43,40 € · Toma de garaje 181,50 € · Mano de obra 800,00 € · Legalización y gestiones 590,00 €
+Subtotales: Equipo 1.720,00 € · Líneas y canalización 163,80 € · Protecciones y cuadro 644,00 € · Red y comunicaciones 43,40 € · Toma de garaje 181,50 € · Mano de obra 800,00 € · Legalización y gestiones 590,00 €
 
-База **4.121,70 €** · IVA 21 % 865,56 € · **ИТОГО 4.987,26 €**
+База **4.142,70 €** · IVA 21 % 869,97 € · **ИТОГО 5.012,67 €**
 
 ---
 
@@ -141,7 +141,7 @@ Costes a precios minoristas. El coste/hora de 26,67 € es un supuesto (venta 40
 | # | Concepto (abrev.) | Cant. | Coste unit. | Venta unit. | Venta | Coste | Margen € | Margen % | Origen | Certeza | Pedir precio real a |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---|---|---|
 | 1 | Cargador V2C Alva doble, 7,4 kW por toma (monofásico, 32 A),… | 1 | 1.295,00 | 1.684,00 | 1.684,00 | 1.295,00 | 389,00 | 23.1 % | Oficial V2C (PVP web) | Oficial (tienda V2C, ALV-X2-32-1-L5-ES, 1.566,95 € IVA incl.) | V2C / distribuidor V2C: tarifa de instalador |
-| 2 | Tarjetas RFID V2C adicionales (con la incluida suman 3)… | 2 | 5,00 | 7,50 | 15,00 | 10,00 | 5,00 | 33.3 % | Activacar (11/11) | Precio dado por Activacar por WhatsApp: 5 € cada una; IVA no especificado (V2C web 4,17 € IVA incl.) | Activacar: confirmar IVA y si hay llaveros |
+| 2 | Llaveros e-Key Bluetooth (BLE, dirección MAC fija) para bloq… | 3 | 8,00 | 12,00 | 36,00 | 24,00 | 12,00 | 33.3 % | ESTIMACIÓN | ESTIMACIÓN del precio; la función SmartLock es oficial (soporte V2C). Probar un modelo antes | Proveedor de llaveros BLE con MAC fija; comprar 1 para probar |
 | 3 | Dos líneas de alimentación independientes, cable RZ1-K (AS) … | 14 | 5,78 | 8,70 | 121,80 | 80,92 | 40,88 | 33.6 % | Obramat/Leroy (PVP) | PVP minorista (Leroy 3G10 6,99 €/m IVA incl.) | Saltoki/Rexel/Sonepar: tarifa |
 | 4 | Tubo y fijaciones para las dos líneas de fuerza (m, a confir… | 7 | 4,00 | 6,00 | 42,00 | 28,00 | 14,00 | 33.3 % | ESTIMACIÓN | ESTIMACIÓN | Saltoki/Rexel/Sonepar |
 | 5 | Magnetotérmico 2P C40 curva C, uno por línea (recomendación … | 2 | 25,00 | 38,00 | 76,00 | 50,00 | 26,00 | 34.2 % | ESTIMACIÓN | ESTIMACIÓN (precio del presupuesto anterior) | Saltoki/Rexel/Sonepar |
@@ -158,7 +158,7 @@ Costes a precios minoristas. El coste/hora de 26,67 € es un supuesto (venta 40
 | 16 | Memoria técnica de diseño y CIE de la estación de recarga (I… | 1 | 150,00 | 300,00 | 300,00 | 150,00 | 150,00 | 50.0 % | ESTIMACIÓN | ESTIMACIÓN (coste del presupuesto anterior) | Tu tramitador/ingeniería colaboradora |
 | 17 | CIE de la vivienda para 14,49 kW y gestión del aumento de po… | 1 | 200,00 | 290,00 | 290,00 | 200,00 | 90,00 | 31.0 % | ESTIMACIÓN | ESTIMACIÓN | Tu tramitador/ingeniería colaboradora |
 
-Venta base **4.121,70 €** · coste **2.873,90 €** · margen **1.247,80 €** (**30.3 %** sobre venta). Sin CIE de la vivienda: base 3.831,70 €, margen 30.2 %.
+Venta base **4.142,70 €** · coste **2.887,90 €** · margen **1.254,80 €** (**30.3 %** sobre venta). Sin CIE de la vivienda: base 3.852,70 €, margen 30.2 %.
 
 **Reglas de precio aplicadas:** materiales coste × 1,5; cargador coste × 1,3 (PVP web sin IVA 1.295,00 €); mano de obra 40 €/h; CIE de la estación 300 € y CIE de la vivienda 290 €. Precios unitarios redondeados al alza (a 1 € si ≥ 20 €, a 0,10 € si menos). El margen sale ≥ 30 % con y sin el CIE de la vivienda, con costes minoristas; con tarifa de instalador será mayor.
 
@@ -167,34 +167,35 @@ Venta base **4.121,70 €** · coste **2.873,90 €** · margen **1.247,80 €**
 ## 5. Opciones de precio y alcance
 | Opción | Base | IVA 21 % | Total | Margen |
 |---|---:|---:|---:|---:|
-| **1. A llave en mano (recomendada)** | 4.121,70 € | 865,56 € | **4.987,26 €** | 30.3 % |
-| 1b. Igual si el boletín ya admite 14,49 kW (sin CIE vivienda) | 3.831,70 € | 804,66 € | 4.636,36 € | 30.2 % |
-| 2. A por fases: Fase 1 (equipo, líneas, protecciones, red, toma, mano de obra, CIE estación) | 3.643,70 € | 765,18 € | 4.408,88 € | — |
+| **1. A llave en mano (recomendada)** | 4.142,70 € | 869,97 € | **5.012,67 €** | 30.3 % |
+| 1b. Igual si el boletín ya admite 14,49 kW (sin CIE vivienda) | 3.852,70 € | 809,07 € | 4.661,77 € | 30.2 % |
+| 2. A por fases: Fase 1 (equipo, líneas, protecciones, red, toma, mano de obra, CIE estación) | 3.664,70 € | 769,59 € | 4.434,29 € | — |
 | 2. A por fases: Fase 2 (IGA, diferenciales, CIE vivienda y gestión) | 478,00 € | 100,38 € | 578,38 € | — |
-| 3. A por medición (horas reales a 40 €/h): 16 h / 24 h | — | — | 4.793,66 € / 5.180,86 € | ≥ 30 % |
-| 4. El cliente compra la Alva en la web de V2C (1.566,95 € IVA incl.); nosotros instalamos y legalizamos | 2.437,70 € | 511,92 € | 2.949,62 € | 35.2 % |
-| 5. Referencia B: con protecciones, 1 × 63 A (**no ofrecer** hasta respuesta de V2C) | 4.413,60 € | 926,86 € | 5.340,46 € | 29.6 % |
+| 3. A por medición (horas reales a 40 €/h): 16 h / 24 h | — | — | 4.819,07 € / 5.206,27 € | ≥ 30 % |
+| 4. El cliente compra la Alva en la web de V2C (1.566,95 € IVA incl.); nosotros instalamos y legalizamos | 2.458,70 € | 516,33 € | 2.975,03 € | 35.2 % |
+| **4b. Plan B si la Alva no está disponible: dos Trydan Pro, una línea de 32 A cada uno (22 h)** | 4.753,50 € | 998,24 € | 5.751,74 € | 30.1 % |
+| 5. Referencia B: con protecciones, 1 × 63 A (**no ofrecer** hasta respuesta de V2C) | 4.434,60 € | 931,27 € | 5.365,87 € | 29.6 % |
 
 **Recomendación:** ofrecer la **1 (llave en mano)** presentada **por fases (2)**: mismo importe, pero la Fase 1 se ejecuta y se legaliza sin depender de e-distribución, y responde a su pregunta sobre Navidad. Reservar la **4** como último recurso ante la objeción del precio del cargador: mantiene un margen del 35.2 %.
 
 ### Estrategia para el precio del cargador
 - Tienda V2C: **1.566,95 € IVA incl.** (1.295,00 € sin IVA). Nuestra Alva: **1.684,00 € + IVA = 2.037,64 € con IVA**, es decir 470,69 € más que la web.
-- Con costes minoristas, el suelo del 30 % de margen total está en una base de unos 4.106 € (4.968 € con IVA). Si el cargador se muestra al precio web, el resto de partidas tendría que subir mucho; no lo recomiendo.
-- **Antes de enviar, pide la tarifa de instalador de V2C** (V2C tiene programa para instaladores). Si el descuento sobre PVP supera el 20,2 %, puedes mostrar el cargador al precio de la web y seguir en ≥ 30 % de margen. Con la tarifa real, repite el cálculo en la hoja `Interno`.
+- Con costes minoristas, el suelo del 30 % de margen total está en una base de unos 4.126 € (4.992 € con IVA). Si el cargador se muestra al precio web, el resto de partidas tendría que subir mucho; no lo recomiendo.
+- **Antes de enviar, pide la tarifa de instalador de V2C** (V2C tiene programa para instaladores). Si el descuento sobre PVP supera el 20,1 %, puedes mostrar el cargador al precio de la web y seguir en ≥ 30 % de margen. Con la tarifa real, repite el cálculo en la hoja `Interno`.
 - Justificación del valor frente a la web: ControlBox y pinza configurados, RFID dado de alta en V2C Cloud, puesta en marcha y pruebas, CIE a nuestro nombre, garantía de 3 años del fabricante gestionada por PAV GROUP.
 
 ### Qué ha cambiado frente al presupuesto del 13/10 (para la carta)
-El 13/10 enviaste la Alva a **4.883,89 € IVA incl.** (base 4.036,27 €). Ahora: **4.987,26 €** (+103,37 €). Desglose, **suponiendo** que las partidas siguientes no estaban en el presupuesto 00039 (confírmalo con el PDF, que no estaba en el zip):
+El 13/10 enviaste la Alva a **4.883,89 € IVA incl.** (base 4.036,27 €). Ahora: **5.012,67 €** (+128,78 €). Desglose, **suponiendo** que las partidas siguientes no estaban en el presupuesto 00039 (confírmalo con el PDF, que no estaba en el zip):
 
 | Concepto | IVA incl. |
 |---|---:|
 | Presupuesto del 13/10 | 4.883,89 € |
-| Lo que ya estaba (equipo, línea, protecciones, mano de obra, legalización de la estación), ahora | 4.136,75 € (**-747,14 €**) |
+| Lo que ya estaba (equipo, línea, protecciones, mano de obra, legalización de la estación), ahora | 4.162,16 € (**-721,73 €**) |
 | Nuevo por sus peticiones desde el 13/10: toma de garaje (181,50 €), IGA y diferenciales (227,48 €), red y tubo aparte (52,51 €), CIE de la vivienda (350,90 €) | 850,51 € |
-| Total ahora | 4.987,26 € |
+| Total ahora | 5.012,67 € |
 | Wi-Fi que ya no hace falta | 200 € + IVA de ahorro |
 
-Si el CIE de la vivienda no hace falta, el total baja a **4.636,36 €**.
+Si el CIE de la vivienda no hace falta, el total baja a **4.661,77 €**.
 
 **Partidas dobles revisadas:** "fijaciones" estaba en tubo y en material auxiliar; ya solo está en tubo. Las horas incluyen mediciones y puesta en marcha; el CIE incluye la memoria y la tramitación, no horas de obra.
 
@@ -239,7 +240,7 @@ Ver `mensaje_clienta_ru.md`.
 
 ## 10. Novedades de los chats con Activacar y Cristóbal (11/11)
 - **Activacar confirma el manual:** "con protecciones 1 acometida, sin 2". Es lo que decía la clienta. [SEGURO]
-- **RFID:** Activacar dice que las tarjetas cuestan 5 € cada una (IVA no indicado; uso 5,00 € como coste). Sobre llaveros respondió "pregunto" y no hay respuesta. [PENDIENTE]
+- **Tarjetas RFID:** Activacar dice que cuestan 5 € cada una (IVA no indicado). Sobre llaveros respondió "pregunto" y no hay respuesta. La web oficial de V2C ya la da: llaveros BLE (e-Key) sí, ver hallazgo 14. [SEGURO]
 - **Sobretensiones:** Activacar avisa de que la Alva sin protecciones no lleva protector y "tendría que estar en la acometida". Tu respuesta (protector en el cuadro, aguas arriba de las dos líneas) encaja con la ITC-BT-52, apartado 6.4: el protector transitorio se instala cerca del origen o en el cuadro principal. El mismo apartado añade que, según la distancia entre la estación y ese protector, puede hacer falta otro junto a la estación, coordinado con el primero. No sé a partir de qué distancia; con 7 m [VERIFICAR con V2C: la Alva admite un protector como accesorio]. No está en el presupuesto.
 - **Distancia:** dijiste a Cristóbal que el cuadro está a unos 7 m, con acceso fácil. Apliqué 7 m. Confirma que es el cuadro de esta clienta.
 - **Precios de Activacar:** el 19/10 te enviaron imágenes con precios; no estaban en el zip. Mis costes del cargador siguen siendo el PVP de la web. Si me pasas sus precios, recalculo el margen real.
@@ -255,10 +256,21 @@ Cristóbal tiene razón en lo esencial. El anexo del Reglamento Delegado (UE) 20
 ## 11. Desglose de las 20 horas
 Alva: fijación y conexionado, 2 h · cuadro (2 C40, 2 diferenciales, protector, IGA, 2 diferenciales) 4 h · tubo y cable de las dos líneas de 7 m, 3 h · UTP, tubo de comunicaciones, ControlBox y pinza, 3 h · toma de garaje, 3 h · configuración V2C Cloud y RFID, mediciones y pruebas, 3 h · preparación de la memoria y el CIE, 2 h. Estimación mía; tu experiencia manda.
 
-## 12. Datos que faltan y preguntas
+## 12. Si la Alva ya no se vende (audio de Cristóbal): plan B con dos Trydan Pro
+No pude oír el audio; lo tomo como me lo has resumido. **Lo que muestra hoy la web oficial de V2C:** la Alva sigue a la venta (30 variantes en stock), con el aviso "plazo de preparación y envío superior al habitual", y no encontré ningún aviso de retirada. La retirada sería información del distribuidor: pídele a Cristóbal que la ponga **por escrito** (fecha y motivo) antes de cambiar nada con la clienta.
+
+**Plan B: dos Trydan Pro, cada uno con su línea de 32 A.** Eléctricamente es el mismo esquema que A (dos circuitos con C40 y diferencial propio), y es la opción que tú recomendaste el 13/10.
+- **Por qué Pro y no Trydan normal:** la web oficial dice que el Trydan normal no tiene RFID ni gestión de varios usuarios; el Pro sí (RFID y NFC, WiFi, 4G o Ethernet). Así lo había leído la clienta. Los dos admiten e-Key BLE con llaveros. [SEGURO]
+- **Precio oficial:** Trydan Pro monofásico 7,4 kW, cable de 5 m, sin protecciones ni MID: **1.007,33 € IVA incl.** (832,50 € sin IVA); dos = 2.014,66 € IVA incl. frente a 1.566,95 € de una Alva. [SEGURO]
+- **Presupuesto del plan B:** base 4.753,50 €, **total 5.751,74 € con IVA**, margen 30.1 % (cargador a coste × 1,32, resto igual; red con 28 m de UTP porque cada cargador necesita su cable de red; 22 h). Son 739,07 € más que la Alva.
+- **La ISO 15118-20 les afecta igual** (el punto 2.1.3 habla de puntos de recarga privados de modo 3, no de un modelo). Instalar antes del 31/12/2026 sigue siendo la fecha.
+- **Pendiente de V2C:** cómo se reparte la potencia entre **dos** Trydan Pro con un ControlBox y una pinza (V2C dice que cada cargador trae ControlBox y pinza, y no pude leer cómo se agrupan); cuántas tarjetas RFID trae cada Trydan Pro; garantía; plazo de entrega.
+- **Ventajas del plan B:** cada cargador va junto a su plaza (ITC-BT-52, 5.4), cada línea y cada cargador son independientes. **Desventajas:** más caro, dos cables de red hasta el router, dos equipos que configurar.
+
+## 13. Datos que faltan y preguntas
 **Para el cliente:** boletín actual (potencia máxima y fecha) · potencia contratada en P1 y P2 · foto del cuadro · número de plazas, si son individuales y su posición respecto al cargador · distancia del cuadro al garaje y recorrido · ¿hay iluminación suficiente en el garaje? · ubicación del router · nombre del administrador de la comunidad.
 
-**Para ti:** tarifa de instalador de V2C y de Saltoki, Rexel o Sonepar · tu coste real por hora · precio real de la memoria técnica y de los dos CIE con tu tramitador · respuesta de V2C (llaveros, seccionador de la versión con protecciones, detector DC, desactivar Wi-Fi/Bluetooth/4G) · precios que te dio Activacar el 19/10 (imágenes) y su respuesta sobre llaveros · qué es "DD" · respuesta de Industria/OCA (doble alimentación y significado de "instalado" para la ISO 15118-20) · el PDF 00039 del 13/10 para confirmar el desglose · qué garantía de instalación quieres dar.
+**Para ti:** tarifa de instalador de V2C y de Saltoki, Rexel o Sonepar · tu coste real por hora · precio real de la memoria técnica y de los dos CIE con tu tramitador · respuesta de V2C (modelo de llavero BLE recomendado, llavero RFID, seccionador de la versión con protecciones, detector DC, desactivar Wi-Fi/Bluetooth/4G) · precios que te dio Activacar el 19/10 (imágenes) y su respuesta sobre llaveros · qué es "DD" · respuesta de Industria/OCA (doble alimentación y significado de "instalado" para la ISO 15118-20) · el PDF 00039 del 13/10 para confirmar el desglose · qué garantía de instalación quieres dar.
 
 **Pregunta a V2C (envíala antes del mensaje):**
-> Buenos días. Vamos a instalar una Alva (ALV-X2-32-1-L5-ES y ALV-X2-32-1-L5-P-ES). 1) ¿Qué frecuencia y tipo de chip lee el lector RFID? ¿Aceptan llaveros o solo la tarjeta V2C? 2) En la versión con protecciones, ¿cuál es el calibre del seccionador de entrada y la sección máxima de bornas? ¿Se admite una línea única de 63 A para las dos tomas de 32 A? 3) ¿La versión sin protecciones necesita el detector de fugas DC para cumplir la ITC-BT-52 en España? 4) ¿Longitud máxima del cable UTP entre el ControlBox y la Alva? 5) ¿Cómo se desactivan Wi-Fi, Bluetooth y 4G para dejar solo Ethernet? 6) El anexo II del AFIR (punto 2.1.3, Reglamento Delegado 2025/656) exige EN ISO 15118-20 a los puntos privados de modo 3 instalados desde el 1/1/2027: ¿la Alva que se entrega ahora lo cumple, y la que se venda desde 2027? 7) ¿Admite la Alva un protector de sobretensiones como accesorio?
+> Buenos días. Vamos a instalar una Alva (ALV-X2-32-1-L5-ES y ALV-X2-32-1-L5-P-ES). 1) Sé que SmartLock acepta llaveros BLE con MAC fija: ¿hay modelos probados o recomendados? ¿Qué frecuencia y tipo de chip lee el lector RFID, y acepta llaveros RFID además de la tarjeta V2C? 2) En la versión con protecciones, ¿cuál es el calibre del seccionador de entrada y la sección máxima de bornas? ¿Se admite una línea única de 63 A para las dos tomas de 32 A? 3) ¿La versión sin protecciones necesita el detector de fugas DC para cumplir la ITC-BT-52 en España? 4) ¿Longitud máxima del cable UTP entre el ControlBox y la Alva? 5) ¿Cómo se desactivan Wi-Fi, Bluetooth y 4G para dejar solo Ethernet? 6) El anexo II del AFIR (punto 2.1.3, Reglamento Delegado 2025/656) exige EN ISO 15118-20 a los puntos privados de modo 3 instalados desde el 1/1/2027: ¿la Alva que se entrega ahora lo cumple, y la que se venda desde 2027? 7) ¿Admite la Alva un protector de sobretensiones como accesorio?
