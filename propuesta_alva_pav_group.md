@@ -17,8 +17,8 @@ Fuentes principales: [ITC-BT-52 consolidada (BOE-A-2014-13681)](https://www.boe.
 | 5 | **El CIE de la vivienda es condicional, no siempre.** Hace falta si 14,49 kW supera la potencia máxima del boletín actual, si han pasado más de 20 años desde la última verificación, o si hubo cambio de tensión (e-distribución y Endesa) | SEGURO | Partida "incluida, con descuento íntegro si no hace falta" |
 | 6 | **Omisiones del presupuesto anterior, ya corregidas:** cartel reflectante en el punto de recarga (ITC-BT-52, apartado 5); iluminación mínima de 50 lux a nivel de suelo en estaciones de interior (apartado 5); punto de conexión junto a la plaza, en envolvente fija (5.4); protección contra sobretensiones temporales **y** transitorias (6.4); circuito dedicado (apartado 5) | SEGURO | Cartel en material auxiliar; iluminación como **exclusión a comprobar** |
 | 7 | **Toma de garaje: C10, no C16.** Tabla 3 de la ITC-BT-52: base UNE 20315 con automático de 10 A; 16 A solo si el fabricante de la base garantiza que queda protegida en recarga lenta de 8 h diarias. Diferencial de 30 mA clase A | SEGURO | Cambiar a C10 y avisar (sección 7) |
-| 8 | **Sección del cable.** Tabla 1 del REBT (ITC-BT-19, cobre, 2 conductores XLPE, en tubo, 40 °C): 6 mm² = 44 A, 10 mm² = 60 A, 16 mm² = 80 A, 25 mm² = 106 A. 3G6 cubre un C40 con un solo circuito por tubo. Dos circuitos agrupados exigen un factor de reducción (valor habitual 0,8: 44 A × 0,8 = 35 A < 40 A; 60 A × 0,8 = 48 A ≥ 40 A) | Tabla: SEGURO · factor 0,8: VERIFICAR (UNE 20460-5-523, no la pude abrir) | **3G10 en las dos líneas**; coste extra frente a 3G6 ≈ 82 € de coste (30 m × 2,72 €) |
-| 9 | **Caída de tensión:** límite 5 % hasta el punto de recarga (ITC-BT-52, apartado 5). Cálculo mío con 3G10, 32 A, 15 m: 2,2 V = 0,9 %; con 30 m: 1,9 % | Límite: SEGURO · cálculo: mío | Recalcular con metros reales |
+| 8 | **Sección del cable.** Tabla 1 del REBT (ITC-BT-19, cobre, 2 conductores XLPE, en tubo, 40 °C): 6 mm² = 44 A, 10 mm² = 60 A, 16 mm² = 80 A, 25 mm² = 106 A. 3G6 cubre un C40 con un solo circuito por tubo. Dos circuitos agrupados exigen un factor de reducción (valor habitual 0,8: 44 A × 0,8 = 35 A < 40 A; 60 A × 0,8 = 48 A ≥ 40 A) | Tabla: SEGURO · factor 0,8: VERIFICAR (UNE 20460-5-523, no la pude abrir) | **3G10 en las dos líneas**; coste extra frente a 3G6 ≈ 38 € de coste (14 m × 2,72 €) |
+| 9 | **Caída de tensión:** límite 5 % hasta el punto de recarga (ITC-BT-52, apartado 5). Cálculo mío con 3G10 y 32 A: 7 m → 1,0 V = 0,4 %; 15 m → 0,9 %; 30 m → 1,9 % | Límite: SEGURO · cálculo: mío | Recalcular con metros reales |
 | 10 | **Corriente continua residual (6 mA):** la ITC-BT-52 solo exige diferencial clase A. La ficha de V2C dice "AC 30 mA / DC 6 mA según modelo" y vende un detector de fugas DC como accesorio opcional | BOE: SEGURO · si falta o no en la versión sin protecciones: VERIFICAR con V2C | Partida opcional de 2 × 80,82 € coste, fuera del total |
 | 11 | **Doble alimentación en una estación:** no hay prohibición en el BOE. Falta confirmar si Industria/OCA piden señalización o aviso de dos fuentes en el cuadro | VERIFICAR con Delegación Territorial de Industria de Cádiz y tu OCA | Preguntar antes de ejecutar |
 | 12 | **LGA y derivación individual del edificio:** el diseñador debe comprobar que no se supera su intensidad admisible (ITC-BT-52, apartado 5); e-distribución comprueba antes de ampliar potencia si el suministro lo soporta | SEGURO | Coste no incluido si hay que cambiarlas |
@@ -54,28 +54,28 @@ La ITC-BT-52 (3.2) admite en garajes de edificios el esquema 4a: circuito desde 
 |---|---|---|---|
 | Documentación V2C | Oficial: dos entradas (págs. 9 y 19) | Una entrada; calibre del seccionador **no publicado** | No aplica |
 | ITC-BT-52 | Protección individual por punto de conexión; 7.360 W por circuito, dentro del límite de 9.200 W de 3.1 | Un circuito monofásico de 14,49 kW: 3.2 no repite el límite, pero riesgo de interpretación | Esquemas 2/3a (apartado 4.2): obra en zonas comunes y centralización de contadores |
-| Precio al cliente (IVA incl.) | **5.431,57 €** | 5.685,06 € | No calculado: depende de la distancia y de la comunidad |
+| Precio al cliente (IVA incl.) | **4.987,26 €** | 5.340,46 € | No calculado: depende de la distancia y de la comunidad |
 | Selectividad con IGA 63 A | Sí (C40 < 63 A) | No (C63 = IGA) | Según instalación |
 | Legalización | 1 CIE de la estación con 2 circuitos; VERIFICAR señalización de doble alimentación | 1 circuito | Mayor: centralización y comunidad |
 | Riesgo de rechazo | Bajo a medio | Medio (V2C + Industria) | Medio (comunidad y distribuidora) |
 | Ventaja para el cliente | Todo dentro de su vivienda, es lo que pidieron; cada toma con protección propia | Una sola línea | Línea directa |
-| Margen (costes minoristas) | 30.2 % | 29.4 % con los mismos sobreprecios | No calculado |
+| Margen (costes minoristas) | 30.3 % | 29.6 % con los mismos sobreprecios | No calculado |
 
 **Conclusión:** A. Es la única opción con documentación oficial completa, es la que piden, cumple el límite de 9.200 W por circuito y es más barata que B.
 
 ---
 
 ## 3. Presupuesto del CLIENTE (español)
-Supuestos de cantidades: línea 15 m (30 m en total), UTP 30 m, garaje 15 m, 2 diferenciales a sustituir, 24 h. Todo lo marcado "a confirmar" se cierra en la visita técnica.
+Supuestos de cantidades: línea de 7 m (14 m en total; dato tuyo del chat con Cristóbal, a confirmar), UTP 14 m, toma de garaje 15 m (sin dato), 2 diferenciales a sustituir, 20 h (desglose en la sección 11). Todo lo marcado "a confirmar" se cierra en la visita técnica.
 
 | # | Descripción | Cant. | Ud | Precio unit. | Importe |
 |---|---|---:|---|---:|---:|
 | | **Equipo** | | | | |
 | 1 | Cargador V2C Alva doble, 7,4 kW por toma (monofásico, 32 A), sin protecciones integradas y sin contador MID, 2 cables Type 2 de 5 m, lector RFID con 1 tarjeta, V2C ControlBox y pinza amperimétrica incluidos, Ethernet/Wi-Fi/4G, garantía del fabricante 3 años | 1 | ud | 1.684,00 € | 1.684,00 € |
-| 2 | Tarjetas RFID V2C adicionales (con la incluida suman 3) | 2 | ud | 5,20 € | 10,40 € |
+| 2 | Tarjetas RFID V2C adicionales (con la incluida suman 3) | 2 | ud | 7,50 € | 15,00 € |
 | | **Líneas y canalización** | | | | |
-| 3 | Dos líneas de alimentación independientes, cable RZ1-K (AS) 0,6/1 kV 3G10 mm² (cobre, libre de halógenos), una por toma, del cuadro de la vivienda al cargador (m totales, a confirmar en visita) | 30 | m | 8,70 € | 261,00 € |
-| 4 | Tubo y fijaciones para las dos líneas de fuerza (m, a confirmar en visita) | 15 | m | 6,00 € | 90,00 € |
+| 3 | Dos líneas de alimentación independientes, cable RZ1-K (AS) 0,6/1 kV 3G10 mm² (cobre, libre de halógenos), una por toma, del cuadro de la vivienda al cargador (m totales, a confirmar en visita) | 14 | m | 8,70 € | 121,80 € |
+| 4 | Tubo y fijaciones para las dos líneas de fuerza (m, a confirmar en visita) | 7 | m | 6,00 € | 42,00 € |
 | | **Protecciones y cuadro** | | | | |
 | 5 | Magnetotérmico 2P C40 curva C, uno por línea (recomendación V2C: 1,25 × 32 A) | 2 | ud | 38,00 € | 76,00 € |
 | 6 | Diferencial 2P 40 A, 30 mA, tipo A superinmunizado, uno por línea (uno propio por estación: manual V2C e ITC-BT-52, apartado 6.1) | 2 | ud | 59,00 € | 118,00 € |
@@ -84,20 +84,20 @@ Supuestos de cantidades: línea 15 m (30 m en total), UTP 30 m, garaje 15 m, 2 d
 | 9 | Sustitución de diferenciales del cuadro de la vivienda para la nueva potencia (uds, a confirmar con foto del cuadro) | 2 | ud | 59,00 € | 118,00 € |
 | 10 | Material auxiliar y señalización (bornas, punteras cuadradas, cajas, cartel reflectante exigido por ITC-BT-52, apartado 5) | 1 | ud | 150,00 € | 150,00 € |
 | | **Red y comunicaciones** | | | | |
-| 11 | Cable de datos UTP Cat6: ControlBox-cargador y red del router-cargador; terminan dentro del cargador, sin rosetas ni cajas en el garaje (m totales) | 30 | m | 1,20 € | 36,00 € |
-| 12 | Canalización independiente de la fuerza para los cables de comunicaciones (m, a confirmar en visita) | 15 | m | 3,80 € | 57,00 € |
+| 11 | Cable de datos UTP Cat6: ControlBox-cargador y red del router-cargador; terminan dentro del cargador, sin rosetas ni cajas en el garaje (m totales) | 14 | m | 1,20 € | 16,80 € |
+| 12 | Canalización independiente de la fuerza para los cables de comunicaciones (m, a confirmar en visita) | 7 | m | 3,80 € | 26,60 € |
 | | **Toma de garaje** | | | | |
 | 13 | Línea independiente para la toma de garaje: cable 3G2,5 mm² RZ1-K (AS) y canalización (m, a confirmar en visita) | 15 | m | 5,10 € | 76,50 € |
 | 14 | Toma de garaje para bicicletas y patinetes: magnetotérmico C10, diferencial 30 mA tipo A y base de enchufe en envolvente cerrada con llave (ITC-BT-52, tabla 3) | 1 | ud | 105,00 € | 105,00 € |
 | | **Mano de obra** | | | | |
-| 15 | Mano de obra: instalación, conexionado, mediciones, configuración del ControlBox, RFID y V2C Cloud, y puesta en marcha (horas, a confirmar en visita) | 24 | h | 40,00 € | 960,00 € |
+| 15 | Mano de obra: instalación, conexionado, mediciones, configuración del ControlBox, RFID y V2C Cloud, y puesta en marcha (horas, a confirmar en visita) | 20 | h | 40,00 € | 800,00 € |
 | | **Legalización y gestiones** | | | | |
-| 16 | Memoria técnica de diseño y CIE de la estación de recarga (ITC-BT-52, ITC-BT-04), registro en Industria (TECI, Junta de Andalucía) | 1 | ud | 275,00 € | 275,00 € |
+| 16 | Memoria técnica de diseño y CIE de la estación de recarga (ITC-BT-52, ITC-BT-04), registro en Industria (TECI, Junta de Andalucía) | 1 | ud | 300,00 € | 300,00 € |
 | 17 | CIE de la vivienda para 14,49 kW y gestión del aumento de potencia en periodo P2 con la comercializadora y e-distribución. Incluido en el precio total; si su boletín actual ya admite 14,49 kW, se descuenta íntegramente | 1 | ud | 290,00 € | 290,00 € |
 
-Subtotales: Equipo 1.694,40 € · Líneas y canalización 351,00 € · Protecciones y cuadro 644,00 € · Red y comunicaciones 93,00 € · Toma de garaje 181,50 € · Mano de obra 960,00 € · Legalización y gestiones 565,00 €
+Subtotales: Equipo 1.699,00 € · Líneas y canalización 163,80 € · Protecciones y cuadro 644,00 € · Red y comunicaciones 43,40 € · Toma de garaje 181,50 € · Mano de obra 800,00 € · Legalización y gestiones 590,00 €
 
-Base imponible **4.488,90 €** · IVA 21 % 942,67 € · **TOTAL 5.431,57 €**
+Base imponible **4.121,70 €** · IVA 21 % 865,56 € · **TOTAL 4.987,26 €**
 
 **Detector de fugas DC V2C (opcional, no incluido en el total):** 2 uds a 122 € cada una + IVA, solo si V2C confirma que la versión sin protecciones lo necesita.
 
@@ -106,10 +106,10 @@ Base imponible **4.488,90 €** · IVA 21 % 942,67 € · **TOTAL 5.431,57 €**
 |---|---|---:|---|---:|---:|
 | | **Equipo** | | | | |
 | 1 | Зарядная станция V2C Alva, 2 розетки по 7,4 кВт (однофазная, 32 А), без встроенных защит и без счётчика MID, 2 кабеля Type 2 по 5 м, считыватель RFID с 1 картой, V2C ControlBox и токовые клещи в комплекте, Ethernet/Wi-Fi/4G, гарантия производителя 3 года | 1 | ud | 1.684,00 € | 1.684,00 € |
-| 2 | Дополнительные RFID-карты V2C (вместе с комплектной — 3 шт.) | 2 | ud | 5,20 € | 10,40 € |
+| 2 | Дополнительные RFID-карты V2C (вместе с комплектной — 3 шт.) | 2 | ud | 7,50 € | 15,00 € |
 | | **Líneas y canalización** | | | | |
-| 3 | Две независимые питающие линии, кабель RZ1-K (AS) 0,6/1 кВ 3G10 мм² (медь, без галогенов), по одной на розетку, от щитка квартиры до станции (всего м, уточняется на визите) | 30 | m | 8,70 € | 261,00 € |
-| 4 | Труба и крепёж для двух силовых линий (м, уточняется на визите) | 15 | m | 6,00 € | 90,00 € |
+| 3 | Две независимые питающие линии, кабель RZ1-K (AS) 0,6/1 кВ 3G10 мм² (медь, без галогенов), по одной на розетку, от щитка квартиры до станции (всего м, уточняется на визите) | 14 | m | 8,70 € | 121,80 € |
+| 4 | Труба и крепёж для двух силовых линий (м, уточняется на визите) | 7 | m | 6,00 € | 42,00 € |
 | | **Protecciones y cuadro** | | | | |
 | 5 | Автомат 2P C40 кривая C, по одному на линию (рекомендация V2C: 1,25 × 32 А) | 2 | ud | 38,00 € | 76,00 € |
 | 6 | Дифференциальный выключатель 2P 40 А, 30 мА, тип A superinmunizado, по одному на линию (свой на каждую станцию: мануал V2C и ITC-BT-52, п. 6.1) | 2 | ud | 59,00 € | 118,00 € |
@@ -118,20 +118,20 @@ Base imponible **4.488,90 €** · IVA 21 % 942,67 € · **TOTAL 5.431,57 €**
 | 9 | Замена дифференциальных выключателей в щитке квартиры под новую мощность (шт., уточняется по фото щитка) | 2 | ud | 59,00 € | 118,00 € |
 | 10 | Вспомогательные материалы и маркировка (клеммы, наконечники, коробки, светоотражающая табличка по ITC-BT-52, п. 5) | 1 | ud | 150,00 € | 150,00 € |
 | | **Red y comunicaciones** | | | | |
-| 11 | Сетевой кабель UTP Cat6: ControlBox—станция и роутер—станция; заканчиваются внутри станции, без розеток и коробок в гараже (всего м) | 30 | m | 1,20 € | 36,00 € |
-| 12 | Отдельная от силовых линий труба для кабелей связи (м, уточняется на визите) | 15 | m | 3,80 € | 57,00 € |
+| 11 | Сетевой кабель UTP Cat6: ControlBox—станция и роутер—станция; заканчиваются внутри станции, без розеток и коробок в гараже (всего м) | 14 | m | 1,20 € | 16,80 € |
+| 12 | Отдельная от силовых линий труба для кабелей связи (м, уточняется на визите) | 7 | m | 3,80 € | 26,60 € |
 | | **Toma de garaje** | | | | |
 | 13 | Отдельная линия для розетки в гараже: кабель 3G2,5 мм² RZ1-K (AS) и труба (м, уточняется на визите) | 15 | m | 5,10 € | 76,50 € |
 | 14 | Розетка в гараже для велосипедов и самокатов: автомат C10, дифференциал 30 мА тип A и розетка в закрытом корпусе с ключом (ITC-BT-52, таблица 3) | 1 | ud | 105,00 € | 105,00 € |
 | | **Mano de obra** | | | | |
-| 15 | Работа: монтаж, подключение, измерения, настройка ControlBox, RFID и V2C Cloud, пусконаладка (часы, уточняется на визите) | 24 | h | 40,00 € | 960,00 € |
+| 15 | Работа: монтаж, подключение, измерения, настройка ControlBox, RFID и V2C Cloud, пусконаладка (часы, уточняется на визите) | 20 | h | 40,00 € | 800,00 € |
 | | **Legalización y gestiones** | | | | |
-| 16 | Техническая записка (MTD) и CIE зарядной станции (ITC-BT-52, ITC-BT-04), регистрация в Industria (TECI, Junta de Andalucía) | 1 | ud | 275,00 € | 275,00 € |
+| 16 | Техническая записка (MTD) и CIE зарядной станции (ITC-BT-52, ITC-BT-04), регистрация в Industria (TECI, Junta de Andalucía) | 1 | ud | 300,00 € | 300,00 € |
 | 17 | CIE квартиры на 14,49 кВт и оформление увеличения мощности в периоде P2 через comercializadora и e-distribución. Включено в общую цену; если ваш текущий boletín уже допускает 14,49 кВт, сумма вычитается полностью | 1 | ud | 290,00 € | 290,00 € |
 
-Subtotales: Equipo 1.694,40 € · Líneas y canalización 351,00 € · Protecciones y cuadro 644,00 € · Red y comunicaciones 93,00 € · Toma de garaje 181,50 € · Mano de obra 960,00 € · Legalización y gestiones 565,00 €
+Subtotales: Equipo 1.699,00 € · Líneas y canalización 163,80 € · Protecciones y cuadro 644,00 € · Red y comunicaciones 43,40 € · Toma de garaje 181,50 € · Mano de obra 800,00 € · Legalización y gestiones 590,00 €
 
-База **4.488,90 €** · IVA 21 % 942,67 € · **ИТОГО 5.431,57 €**
+База **4.121,70 €** · IVA 21 % 865,56 € · **ИТОГО 4.987,26 €**
 
 ---
 
@@ -141,60 +141,60 @@ Costes a precios minoristas. El coste/hora de 26,67 € es un supuesto (venta 40
 | # | Concepto (abrev.) | Cant. | Coste unit. | Venta unit. | Venta | Coste | Margen € | Margen % | Origen | Certeza | Pedir precio real a |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---|---|---|
 | 1 | Cargador V2C Alva doble, 7,4 kW por toma (monofásico, 32 A),… | 1 | 1.295,00 | 1.684,00 | 1.684,00 | 1.295,00 | 389,00 | 23.1 % | Oficial V2C (PVP web) | Oficial (tienda V2C, ALV-X2-32-1-L5-ES, 1.566,95 € IVA incl.) | V2C / distribuidor V2C: tarifa de instalador |
-| 2 | Tarjetas RFID V2C adicionales (con la incluida suman 3)… | 2 | 3,45 | 5,20 | 10,40 | 6,90 | 3,50 | 33.7 % | Oficial V2C (PVP web) | Oficial (tarjeta RFID 4,17 € IVA incl.) | V2C |
-| 3 | Dos líneas de alimentación independientes, cable RZ1-K (AS) … | 30 | 5,78 | 8,70 | 261,00 | 173,40 | 87,60 | 33.6 % | Obramat/Leroy (PVP) | PVP minorista (Leroy 3G10 6,99 €/m IVA incl.) | Saltoki/Rexel/Sonepar: tarifa |
-| 4 | Tubo y fijaciones para las dos líneas de fuerza (m, a confir… | 15 | 4,00 | 6,00 | 90,00 | 60,00 | 30,00 | 33.3 % | ESTIMACIÓN | ESTIMACIÓN | Saltoki/Rexel/Sonepar |
+| 2 | Tarjetas RFID V2C adicionales (con la incluida suman 3)… | 2 | 5,00 | 7,50 | 15,00 | 10,00 | 5,00 | 33.3 % | Activacar (11/11) | Precio dado por Activacar por WhatsApp: 5 € cada una; IVA no especificado (V2C web 4,17 € IVA incl.) | Activacar: confirmar IVA y si hay llaveros |
+| 3 | Dos líneas de alimentación independientes, cable RZ1-K (AS) … | 14 | 5,78 | 8,70 | 121,80 | 80,92 | 40,88 | 33.6 % | Obramat/Leroy (PVP) | PVP minorista (Leroy 3G10 6,99 €/m IVA incl.) | Saltoki/Rexel/Sonepar: tarifa |
+| 4 | Tubo y fijaciones para las dos líneas de fuerza (m, a confir… | 7 | 4,00 | 6,00 | 42,00 | 28,00 | 14,00 | 33.3 % | ESTIMACIÓN | ESTIMACIÓN | Saltoki/Rexel/Sonepar |
 | 5 | Magnetotérmico 2P C40 curva C, uno por línea (recomendación … | 2 | 25,00 | 38,00 | 76,00 | 50,00 | 26,00 | 34.2 % | ESTIMACIÓN | ESTIMACIÓN (precio del presupuesto anterior) | Saltoki/Rexel/Sonepar |
 | 6 | Diferencial 2P 40 A, 30 mA, tipo A superinmunizado, uno por … | 2 | 39,26 | 59,00 | 118,00 | 78,52 | 39,48 | 33.5 % | Obramat/Leroy (PVP) | PVP minorista (Obramat Schneider 47,50 € IVA incl.) | Saltoki/Rexel/Sonepar |
 | 7 | Protector contra sobretensiones permanentes y transitorias (… | 1 | 74,02 | 112,00 | 112,00 | 74,02 | 37,98 | 33.9 % | Obramat/Leroy (PVP) | PVP minorista (Leroy Toscano COMBI 2P50T15 89,57 € IVA incl.); validar calibre | Saltoki/Rexel/Sonepar |
 | 8 | Sustitución del IGA por magnetotérmico 2P 63 A (para 14,49 k… | 1 | 46,45 | 70,00 | 70,00 | 46,45 | 23,55 | 33.6 % | Obramat/Leroy (PVP) | PVP minorista (Obramat Hager 56,21 € IVA incl.) | Saltoki/Rexel/Sonepar |
 | 9 | Sustitución de diferenciales del cuadro de la vivienda para … | 2 | 39,26 | 59,00 | 118,00 | 78,52 | 39,48 | 33.5 % | Obramat/Leroy (PVP) | PVP minorista (Obramat Schneider); unidades por confirmar | Saltoki/Rexel/Sonepar |
 | 10 | Material auxiliar y señalización (bornas, punteras cuadradas… | 1 | 100,00 | 150,00 | 150,00 | 100,00 | 50,00 | 33.3 % | ESTIMACIÓN | ESTIMACIÓN | Tu histórico de obras |
-| 11 | Cable de datos UTP Cat6: ControlBox-cargador y red del route… | 30 | 0,76 | 1,20 | 36,00 | 22,80 | 13,20 | 36.7 % | Obramat/Leroy (PVP) | PVP minorista (Obramat Cat6A 0,92 €/m IVA incl.) | Saltoki/Rexel/Sonepar |
-| 12 | Canalización independiente de la fuerza para los cables de c… | 15 | 2,50 | 3,80 | 57,00 | 37,50 | 19,50 | 34.2 % | ESTIMACIÓN | ESTIMACIÓN | Saltoki/Rexel/Sonepar |
+| 11 | Cable de datos UTP Cat6: ControlBox-cargador y red del route… | 14 | 0,76 | 1,20 | 16,80 | 10,64 | 6,16 | 36.7 % | Obramat/Leroy (PVP) | PVP minorista (Obramat Cat6A 0,92 €/m IVA incl.) | Saltoki/Rexel/Sonepar |
+| 12 | Canalización independiente de la fuerza para los cables de c… | 7 | 2,50 | 3,80 | 26,60 | 17,50 | 9,10 | 34.2 % | ESTIMACIÓN | ESTIMACIÓN | Saltoki/Rexel/Sonepar |
 | 13 | Línea independiente para la toma de garaje: cable 3G2,5 mm² … | 15 | 3,40 | 5,10 | 76,50 | 51,00 | 25,50 | 33.3 % | Obramat/Leroy (PVP) | PVP minorista (cable Obramat 1,40 €/m sin IVA) + tubo estimado 2,00 | Saltoki/Rexel/Sonepar |
 | 14 | Toma de garaje para bicicletas y patinetes: magnetotérmico C… | 1 | 70,00 | 105,00 | 105,00 | 70,00 | 35,00 | 33.3 % | ESTIMACIÓN | ESTIMACIÓN | Saltoki/Rexel/Sonepar |
-| 15 | Mano de obra: instalación, conexionado, mediciones, configur… | 24 | 26,67 | 40,00 | 960,00 | 640,00 | 320,00 | 33.3 % | Tarifa 40 €/h | SUPUESTO: coste real/hora no conocido | Tu coste real por hora (salario + SS + furgoneta) |
-| 16 | Memoria técnica de diseño y CIE de la estación de recarga (I… | 1 | 150,00 | 275,00 | 275,00 | 150,00 | 125,00 | 45.5 % | ESTIMACIÓN | ESTIMACIÓN (coste del presupuesto anterior) | Tu tramitador/ingeniería colaboradora |
+| 15 | Mano de obra: instalación, conexionado, mediciones, configur… | 20 | 26,67 | 40,00 | 800,00 | 533,33 | 266,67 | 33.3 % | Tarifa 40 €/h | SUPUESTO: coste real/hora no conocido | Tu coste real por hora (salario + SS + furgoneta) |
+| 16 | Memoria técnica de diseño y CIE de la estación de recarga (I… | 1 | 150,00 | 300,00 | 300,00 | 150,00 | 150,00 | 50.0 % | ESTIMACIÓN | ESTIMACIÓN (coste del presupuesto anterior) | Tu tramitador/ingeniería colaboradora |
 | 17 | CIE de la vivienda para 14,49 kW y gestión del aumento de po… | 1 | 200,00 | 290,00 | 290,00 | 200,00 | 90,00 | 31.0 % | ESTIMACIÓN | ESTIMACIÓN | Tu tramitador/ingeniería colaboradora |
 
-Venta base **4.488,90 €** · coste **3.134,11 €** · margen **1.354,79 €** (**30.2 %** sobre venta). Sin CIE de la vivienda: base 4.198,90 €, margen 30.1 %.
+Venta base **4.121,70 €** · coste **2.873,90 €** · margen **1.247,80 €** (**30.3 %** sobre venta). Sin CIE de la vivienda: base 3.831,70 €, margen 30.2 %.
 
-**Reglas de precio aplicadas:** materiales coste × 1,5; cargador coste × 1,3 (PVP web sin IVA 1.295,00 €); mano de obra 40 €/h; CIE de la estación 275 € y CIE de la vivienda 290 €. Precios unitarios redondeados al alza (a 1 € si ≥ 20 €, a 0,10 € si menos). El margen sale ≥ 30 % con y sin el CIE de la vivienda, con costes minoristas; con tarifa de instalador será mayor.
+**Reglas de precio aplicadas:** materiales coste × 1,5; cargador coste × 1,3 (PVP web sin IVA 1.295,00 €); mano de obra 40 €/h; CIE de la estación 300 € y CIE de la vivienda 290 €. Precios unitarios redondeados al alza (a 1 € si ≥ 20 €, a 0,10 € si menos). El margen sale ≥ 30 % con y sin el CIE de la vivienda, con costes minoristas; con tarifa de instalador será mayor.
 
 ---
 
 ## 5. Opciones de precio y alcance
 | Opción | Base | IVA 21 % | Total | Margen |
 |---|---:|---:|---:|---:|
-| **1. A llave en mano (recomendada)** | 4.488,90 € | 942,67 € | **5.431,57 €** | 30.2 % |
-| 1b. Igual si el boletín ya admite 14,49 kW (sin CIE vivienda) | 4.198,90 € | 881,77 € | 5.080,67 € | 30.1 % |
-| 2. A por fases: Fase 1 (equipo, líneas, protecciones, red, toma, mano de obra, CIE estación) | 4.010,90 € | 842,29 € | 4.853,19 € | — |
+| **1. A llave en mano (recomendada)** | 4.121,70 € | 865,56 € | **4.987,26 €** | 30.3 % |
+| 1b. Igual si el boletín ya admite 14,49 kW (sin CIE vivienda) | 3.831,70 € | 804,66 € | 4.636,36 € | 30.2 % |
+| 2. A por fases: Fase 1 (equipo, líneas, protecciones, red, toma, mano de obra, CIE estación) | 3.643,70 € | 765,18 € | 4.408,88 € | — |
 | 2. A por fases: Fase 2 (IGA, diferenciales, CIE vivienda y gestión) | 478,00 € | 100,38 € | 578,38 € | — |
-| 3. A por medición (horas reales a 40 €/h): 20 h / 28 h | — | — | 5.237,97 € / 5.625,17 € | ≥ 30 % |
-| 4. El cliente compra la Alva en la web de V2C (1.566,95 € IVA incl.); nosotros instalamos y legalizamos | 2.804,90 € | 589,03 € | 3.393,93 € | 34.4 % |
-| 5. Referencia B: con protecciones, 1 × 63 A (**no ofrecer** hasta respuesta de V2C) | 4.698,40 € | 986,66 € | 5.685,06 € | 29.4 % |
+| 3. A por medición (horas reales a 40 €/h): 16 h / 24 h | — | — | 4.793,66 € / 5.180,86 € | ≥ 30 % |
+| 4. El cliente compra la Alva en la web de V2C (1.566,95 € IVA incl.); nosotros instalamos y legalizamos | 2.437,70 € | 511,92 € | 2.949,62 € | 35.2 % |
+| 5. Referencia B: con protecciones, 1 × 63 A (**no ofrecer** hasta respuesta de V2C) | 4.413,60 € | 926,86 € | 5.340,46 € | 29.6 % |
 
-**Recomendación:** ofrecer la **1 (llave en mano)** presentada **por fases (2)**: mismo importe, pero la Fase 1 se ejecuta y se legaliza sin depender de e-distribución, y responde a su pregunta sobre Navidad. Reservar la **4** como último recurso ante la objeción del precio del cargador: mantiene un margen del 34.4 %.
+**Recomendación:** ofrecer la **1 (llave en mano)** presentada **por fases (2)**: mismo importe, pero la Fase 1 se ejecuta y se legaliza sin depender de e-distribución, y responde a su pregunta sobre Navidad. Reservar la **4** como último recurso ante la objeción del precio del cargador: mantiene un margen del 35.2 %.
 
 ### Estrategia para el precio del cargador
 - Tienda V2C: **1.566,95 € IVA incl.** (1.295,00 € sin IVA). Nuestra Alva: **1.684,00 € + IVA = 2.037,64 € con IVA**, es decir 470,69 € más que la web.
-- Con costes minoristas, el suelo del 30 % de margen total está en una base de unos 4.477 € (5.418 € con IVA). Si el cargador se muestra al precio web, el resto de partidas tendría que subir mucho; no lo recomiendo.
-- **Antes de enviar, pide la tarifa de instalador de V2C** (V2C tiene programa para instaladores). Si el descuento sobre PVP supera el 23 %, puedes mostrar el cargador al precio de la web y seguir en ≥ 30 % de margen. Con la tarifa real, repite el cálculo en la hoja `Interno`.
+- Con costes minoristas, el suelo del 30 % de margen total está en una base de unos 4.106 € (4.968 € con IVA). Si el cargador se muestra al precio web, el resto de partidas tendría que subir mucho; no lo recomiendo.
+- **Antes de enviar, pide la tarifa de instalador de V2C** (V2C tiene programa para instaladores). Si el descuento sobre PVP supera el 20,2 %, puedes mostrar el cargador al precio de la web y seguir en ≥ 30 % de margen. Con la tarifa real, repite el cálculo en la hoja `Interno`.
 - Justificación del valor frente a la web: ControlBox y pinza configurados, RFID dado de alta en V2C Cloud, puesta en marcha y pruebas, CIE a nuestro nombre, garantía de 3 años del fabricante gestionada por PAV GROUP.
 
 ### Qué ha cambiado frente al presupuesto del 13/10 (para la carta)
-El 13/10 enviaste la Alva a **4.883,89 € IVA incl.** (base 4.036,27 €). Ahora: **5.431,57 €** (+547,68 €). Desglose, **suponiendo** que las partidas siguientes no estaban en el presupuesto 00039 (confírmalo con el PDF, que no estaba en el zip):
+El 13/10 enviaste la Alva a **4.883,89 € IVA incl.** (base 4.036,27 €). Ahora: **4.987,26 €** (+103,37 €). Desglose, **suponiendo** que las partidas siguientes no estaban en el presupuesto 00039 (confírmalo con el PDF, que no estaba en el zip):
 
 | Concepto | IVA incl. |
 |---|---:|
 | Presupuesto del 13/10 | 4.883,89 € |
-| Lo que ya estaba (equipo, línea, protecciones, mano de obra, legalización de la estación), ahora | 4.521,04 € (**-362,85 €**) |
-| Nuevo por sus peticiones desde el 13/10: toma de garaje (219,62 €), IGA y diferenciales (227,48 €), red y tubo aparte (112,53 €), CIE de la vivienda (350,90 €) | 910,52 € |
-| Total ahora | 5.431,57 € |
+| Lo que ya estaba (equipo, línea, protecciones, mano de obra, legalización de la estación), ahora | 4.136,75 € (**-747,14 €**) |
+| Nuevo por sus peticiones desde el 13/10: toma de garaje (181,50 €), IGA y diferenciales (227,48 €), red y tubo aparte (52,51 €), CIE de la vivienda (350,90 €) | 850,51 € |
+| Total ahora | 4.987,26 € |
 | Wi-Fi que ya no hace falta | 200 € + IVA de ahorro |
 
-Si el CIE de la vivienda no hace falta, el total baja a **5.080,67 €**.
+Si el CIE de la vivienda no hace falta, el total baja a **4.636,36 €**.
 
 **Partidas dobles revisadas:** "fijaciones" estaba en tubo y en material auxiliar; ya solo está en tubo. Las horas incluyen mediciones y puesta en marcha; el CIE incluye la memoria y la tramitación, no horas de obra.
 
@@ -203,7 +203,7 @@ Si el CIE de la vivienda no hace falta, el total baja a **5.080,67 €**.
 ## 6. Condiciones y exclusiones
 - **Validez:** 30 días; el precio del equipo sigue la tarifa de V2C.
 - **Pago (propuesta tuya a decidir):** 40 % al aceptar (pedido del equipo), 40 % al terminar la instalación, 20 % al entregar los CIE registrados. La Fase 2 se factura al ejecutarse.
-- **Ejecución:** unas 3 jornadas (24 h) desde que llega el equipo; los plazos de e-distribución y de la Junta no los controlamos.
+- **Ejecución:** unas 2,5 jornadas (20 h) desde que llega el equipo; los plazos de e-distribución y de la Junta no los controlamos.
 - **Garantía:** equipo 3 años (V2C, oficial). Instalación: propuesta de 2 años, decisión tuya; no verifiqué el marco legal.
 - **No incluido:** obra civil, albañilería y acabados · derivación individual, LGA o centralización del edificio si no admiten 14,49 kW · iluminación del garaje si no llega a 50 lux a nivel de suelo (ITC-BT-52, apartado 5) · comunicación a la comunidad (LPH, art. 17.5) · tasas administrativas, derechos de acceso o extensión y costes de e-distribución (los factura la comercializadora) · configuración del router y de la red del cliente · detector de fugas DC si V2C lo exige · ayudas y subvenciones.
 - **Cambios tras la visita técnica:** metros, diferenciales y horas se liquidan a precio unitario; la hora sigue a 40 € + IVA.
@@ -231,16 +231,34 @@ Ver `mensaje_clienta_ru.md`.
 | 16–20/11 | Decisión del cliente. **Visita técnica martes 17/11 o jueves 19/11.** Boletín, foto del cuadro y datos de la comunidad. Borrador de la memoria técnica | Tú y cliente |
 | 23–27/11 | Pedido de la Alva al aceptar. La web de V2C dice que Alva tiene "un plazo de preparación y envío superior al habitual", **sin cifra**. Cliente comunica a la comunidad. Cliente consulta a e-distribución si el suministro admite la potencia | V2C, cliente |
 | 30/11–4/12 | **Fecha límite para tener la Alva en mano** si se quiere instalar antes de Navidad | V2C |
-| 7–11/12 | Ejecución (≈ 3 jornadas) y pruebas | Tú |
+| 7–11/12 | Ejecución (≈ 2,5 jornadas) y pruebas | Tú |
 | 14–18/12 | CIE de la estación por TECI; puesta en servicio. Solicitud del aumento de potencia con el CIE de la vivienda si hace falta | Tú, cliente |
 | 21–24/12 | e-distribución: para potencia final ≤ 15 kW aplica tratamiento abreviado y los plazos de respuesta se reducen a la mitad (guía de e-distribución); no publica plazo de ejecución para un simple cambio de potencia | e-distribución |
 
-**Lo que puedes prometer:** estación instalada, certificada y en servicio antes de Navidad **si V2C entrega antes del 4/12**. **Lo que no puedes prometer:** el aumento a 14,49 kW antes de Navidad. Mientras tanto el ControlBox reparte la potencia contratada actual.
+**Fecha límite legal que no está en tu calendario: 31/12/2026** (ISO 15118-20, sección 10). **Lo que puedes prometer:** estación instalada, certificada y en servicio antes de Navidad y, en todo caso, antes del 31/12, **si V2C/Activacar entrega antes del 4/12**. **Lo que no puedes prometer:** el aumento a 14,49 kW antes de Navidad. Mientras tanto el ControlBox reparte la potencia contratada actual.
 
-## 10. Datos que faltan y preguntas
+## 10. Novedades de los chats con Activacar y Cristóbal (11/11)
+- **Activacar confirma el manual:** "con protecciones 1 acometida, sin 2". Es lo que decía la clienta. [SEGURO]
+- **RFID:** Activacar dice que las tarjetas cuestan 5 € cada una (IVA no indicado; uso 5,00 € como coste). Sobre llaveros respondió "pregunto" y no hay respuesta. [PENDIENTE]
+- **Sobretensiones:** Activacar avisa de que la Alva sin protecciones no lleva protector y "tendría que estar en la acometida". Tu respuesta (protector en el cuadro, aguas arriba de las dos líneas) encaja con la ITC-BT-52, apartado 6.4: el protector transitorio se instala cerca del origen o en el cuadro principal. El mismo apartado añade que, según la distancia entre la estación y ese protector, puede hacer falta otro junto a la estación, coordinado con el primero. No sé a partir de qué distancia; con 7 m [VERIFICAR con V2C: la Alva admite un protector como accesorio]. No está en el presupuesto.
+- **Distancia:** dijiste a Cristóbal que el cuadro está a unos 7 m, con acceso fácil. Apliqué 7 m. Confirma que es el cuadro de esta clienta.
+- **Precios de Activacar:** el 19/10 te enviaron imágenes con precios; no estaban en el zip. Mis costes del cargador siguen siendo el PVP de la web. Si me pasas sus precios, recalculo el margen real.
+- **"Dos DD":** no sé a qué equipo te refieres con "DD". Si son dos cargadores independientes con una línea cada uno, la ISO de abajo les afecta igual que a la Alva.
+
+### ISO 15118-20: lo que dice el texto oficial
+Cristóbal tiene razón en lo esencial. El anexo del Reglamento Delegado (UE) 2025/656 (versión transmitida por la Comisión al Consejo el 2/4/2025, [documento ST 7773/25 ADD 1](https://data.consilium.europa.eu/doc/document/ST-7773-2025-ADD-1/es/pdf)) añade al anexo II del AFIR el punto **2.1.3**: *"Los puntos de recarga privados de corriente alterna (CA) y corriente continua (CC) para vehículos eléctricos ligeros y pesados instalados o renovados a partir del 1 de enero de 2027 cumplirán, a efectos de interoperabilidad, al menos ... EN ISO 15118-20:2022 (para el modo 3 o el modo 4 de recarga)"*. Para los puntos de acceso público el punto 2.1.2 fija la misma fecha. [SEGURO para el texto del anexo]
+- **Qué significa:** la obligación depende de la fecha de **instalación o renovación**: a partir del 1/1/2027. Una estación instalada y en servicio antes de esa fecha no entra en la letra del punto 2.1.3.
+- **Lo que no pude verificar:** el texto publicado en el DOUE el 18/6/2025 (EUR-Lex bloquea el acceso automático); qué se entiende por "instalado" (obra terminada o puesta en servicio); cómo se aplica en España a un punto privado; si la Alva o la Trydan cumplen la norma. Cristóbal dice que V2C no ha decidido si sacará la Alva con ISO 15118-20. [VERIFICAR con V2C, Activacar y la Delegación de Industria de Cádiz]
+- **Efecto sobre tu plan:** cambiar de modelo no evita la norma; evita el problema **instalar antes del 31/12/2026** y dejar la fecha del CIE y de la puesta en servicio dentro de 2026. Si la Alva llega tarde y la obra pasa a 2027, ese equipo podría no ser instalable.
+- **Qué hacer:** (1) pedir a Activacar fecha de entrega firme antes de aceptar el pedido; (2) cláusula en el presupuesto: fecha tope de entrega y, si se supera, derecho de la clienta a desistir con devolución de lo pagado; (3) preguntar a V2C si la Alva que se vende desde 2027 llevará ISO 15118-20.
+
+## 11. Desglose de las 20 horas
+Alva: fijación y conexionado, 2 h · cuadro (2 C40, 2 diferenciales, protector, IGA, 2 diferenciales) 4 h · tubo y cable de las dos líneas de 7 m, 3 h · UTP, tubo de comunicaciones, ControlBox y pinza, 3 h · toma de garaje, 3 h · configuración V2C Cloud y RFID, mediciones y pruebas, 3 h · preparación de la memoria y el CIE, 2 h. Estimación mía; tu experiencia manda.
+
+## 12. Datos que faltan y preguntas
 **Para el cliente:** boletín actual (potencia máxima y fecha) · potencia contratada en P1 y P2 · foto del cuadro · número de plazas, si son individuales y su posición respecto al cargador · distancia del cuadro al garaje y recorrido · ¿hay iluminación suficiente en el garaje? · ubicación del router · nombre del administrador de la comunidad.
 
-**Para ti:** tarifa de instalador de V2C y de Saltoki, Rexel o Sonepar · tu coste real por hora · precio real de la memoria técnica y de los dos CIE con tu tramitador · respuesta de V2C (llaveros, seccionador de la versión con protecciones, detector DC, desactivar Wi-Fi/Bluetooth/4G) · respuesta de Industria/OCA (doble alimentación) · el PDF 00039 del 13/10 para confirmar el desglose · qué garantía de instalación quieres dar.
+**Para ti:** tarifa de instalador de V2C y de Saltoki, Rexel o Sonepar · tu coste real por hora · precio real de la memoria técnica y de los dos CIE con tu tramitador · respuesta de V2C (llaveros, seccionador de la versión con protecciones, detector DC, desactivar Wi-Fi/Bluetooth/4G) · precios que te dio Activacar el 19/10 (imágenes) y su respuesta sobre llaveros · qué es "DD" · respuesta de Industria/OCA (doble alimentación y significado de "instalado" para la ISO 15118-20) · el PDF 00039 del 13/10 para confirmar el desglose · qué garantía de instalación quieres dar.
 
 **Pregunta a V2C (envíala antes del mensaje):**
-> Buenos días. Vamos a instalar una Alva (ALV-X2-32-1-L5-ES y ALV-X2-32-1-L5-P-ES). 1) ¿Qué frecuencia y tipo de chip lee el lector RFID? ¿Aceptan llaveros o solo la tarjeta V2C? 2) En la versión con protecciones, ¿cuál es el calibre del seccionador de entrada y la sección máxima de bornas? ¿Se admite una línea única de 63 A para las dos tomas de 32 A? 3) ¿La versión sin protecciones necesita el detector de fugas DC para cumplir la ITC-BT-52 en España? 4) ¿Longitud máxima del cable UTP entre el ControlBox y la Alva? 5) ¿Cómo se desactivan Wi-Fi, Bluetooth y 4G para dejar solo Ethernet?
+> Buenos días. Vamos a instalar una Alva (ALV-X2-32-1-L5-ES y ALV-X2-32-1-L5-P-ES). 1) ¿Qué frecuencia y tipo de chip lee el lector RFID? ¿Aceptan llaveros o solo la tarjeta V2C? 2) En la versión con protecciones, ¿cuál es el calibre del seccionador de entrada y la sección máxima de bornas? ¿Se admite una línea única de 63 A para las dos tomas de 32 A? 3) ¿La versión sin protecciones necesita el detector de fugas DC para cumplir la ITC-BT-52 en España? 4) ¿Longitud máxima del cable UTP entre el ControlBox y la Alva? 5) ¿Cómo se desactivan Wi-Fi, Bluetooth y 4G para dejar solo Ethernet? 6) El anexo II del AFIR (punto 2.1.3, Reglamento Delegado 2025/656) exige EN ISO 15118-20 a los puntos privados de modo 3 instalados desde el 1/1/2027: ¿la Alva que se entrega ahora lo cumple, y la que se venda desde 2027? 7) ¿Admite la Alva un protector de sobretensiones como accesorio?
