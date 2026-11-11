@@ -22,3 +22,24 @@ Precio = coste × 1,5 (tu criterio). Solo hay que rellenar el coste (col. E) y l
 - Tu mensaje del 14/10 decía diferencial "tipo A" a secas; en los presupuestos anteriores era "tipo A + 6 mA CC". Lo dejé con 6 mA CC; confirma si la Alva con protecciones ya lo integra.
 - Sección: 25 mm² para 63 A es lo que recomendaste; las 2 líneas de 32 A van con 3G6 como en el v2c, revísalo si la distancia es larga.
 - Todo el redactado técnico (ITC-BT-52, qué certificados exige Endesa) debe validarlo tu instalador autorizado antes de enviarlo.
+
+## Costes investigados (11/11/2026)
+**Verificado en la tienda oficial de V2C (PVP, IVA incluido; coste sin IVA = precio / 1,21):**
+| Artículo | PVP IVA incl. | Sin IVA |
+|---|---:|---:|
+| Alva 7,4 kW monofásico, 2 cables lisos 5 m, SIN protecciones, sin MID (ALV-X2-32-1-L5-ES) | 1.566,95 € | 1.295,00 € |
+| Alva 7,4 kW monofásico, 2 cables lisos 5 m, CON protecciones, sin MID (ALV-X2-32-1-L5-P-ES) | 1.929,95 € | 1.595,00 € |
+| Tarjeta RFID | 4,17 € | 3,45 € |
+| Detector de fugas DC (accesorio) | 97,79 € | 80,82 € |
+| Medidor bidireccional monofásico + 1 pinza 120 A | 75,81 € | 62,65 € |
+
+Ya están en el Excel los costes de las dos Alva y de la tarjeta RFID. Son PVP minorista: con tarifa de instalador V2C el coste baja.
+
+**Lo que dice el manual de V2C (lo que la clienta ya habrá leído):**
+- Alva tiene dos variantes de instalación. Con protecciones: los cables entran por un racor y van al seccionador principal. Sin protecciones: se conectan a bornas, a cada lado. Esto respalda su lectura.
+- El ControlBox va provisto con la Alva, pero hay que instalar la pinza amperimétrica (CT) que mide el consumo total. El Excel ya no lo pone como ControlBox sino como pinza.
+- Cada estación debe ir con su propio diferencial de 30 mA tipo A como máximo, sin otros circuitos en él.
+- En la lista de accesorios incluidos no aparecen llaveros ni tarjetas RFID. Lo que dijiste de "брелки в комплекте" conviene comprobarlo.
+- El detector de fugas DC es un accesorio aparte: pregunta a V2C si la versión sin protecciones lo necesita (6 mA CC).
+
+**No encontrado (no lo he puesto en el Excel):** precios de Saltoki, Rexel y Sonepar (solo con cuenta de cliente), cable 3G25/3G6, magnetotérmicos C63/C32, diferenciales de 63 A y 40 A, IGA, sobretensiones, UTP, base con llave. Solo salen precios minoristas dispares (p. ej. magnetotérmico 2P 63 A C: 44–76 €; diferencial 2P 40 A tipo A: 39–90 €), que no valen como coste de instalador. Esos los tienes que sacar de tu tarifa.
