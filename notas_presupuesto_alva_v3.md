@@ -43,3 +43,22 @@ Ya están en el Excel los costes de las dos Alva y de la tarjeta RFID. Son PVP m
 - El detector de fugas DC es un accesorio aparte: pregunta a V2C si la versión sin protecciones lo necesita (6 mA CC).
 
 **No encontrado (no lo he puesto en el Excel):** precios de Saltoki, Rexel y Sonepar (solo con cuenta de cliente), cable 3G25/3G6, magnetotérmicos C63/C32, diferenciales de 63 A y 40 A, IGA, sobretensiones, UTP, base con llave. Solo salen precios minoristas dispares (p. ej. magnetotérmico 2P 63 A C: 44–76 €; diferencial 2P 40 A tipo A: 39–90 €), que no valen como coste de instalador. Esos los tienes que sacar de tu tarifa.
+
+## Costes de Obramat y Leroy Merlin + mano de obra (11/11/2026)
+**Advertencia sobre la fuente:** Obramat bloquea el acceso automático a sus fichas, así que no pude abrirlas. Los precios salen de los resultados de búsqueda de Obramat y Leroy Merlin (que reflejan la ficha). Algunas fichas de Obramat dan precio con IGIC (Canarias): las descarté y usé solo las que indican IVA. **Verifica cada precio en la web antes de enviar.**
+
+| Partida | Fuente | PVP | Sin IVA (en Excel) |
+|---|---|---:|---:|
+| Magnetotérmico 2P 63 A C 6 kA (y IGA 63 A) | Obramat, Hager | 56,21 € | 46,45 € |
+| Magnetotérmico 2P 32 A C | Obramat, Schneider Acti9 | 21,82 € | 18,03 € |
+| Diferencial 2P 40 A 30 mA tipo A superinmunizado | Obramat, Schneider | 47,50 € | 39,26 € |
+| Protector sobretensiones permanente + transitorio | Leroy Merlin, Toscano COMBI 2P50T15 | 89,57 € | 74,02 € |
+| Cable 3G6 RZ1-K | Obramat (otra ficha dice 1,55 €/m; dudoso) | | 3,06 €/m |
+| UTP Cat6A | Obramat | 0,92 €/m | 0,76 €/m |
+| Detector de fugas DC (solo versión sin protecciones) | tienda V2C | 97,79 € | 80,82 € |
+
+**Sin precio fiable (siguen amarillas):** cable 3G25 (ni Obramat ni Leroy lo tienen; 3G16 en Leroy desde 10,29 €/m), diferencial 2P 63 A tipo A (el de Obramat no indica el tipo; el tipo A de Leroy es de un vendedor marketplace), C16 y diferencial de la toma de garaje, base con llave, tubos, pinza del ControlBox, CIE.
+
+**Mano de obra:** 45 €/h + IVA como precio de venta fijo (en el Excel: coste 30 × 1,5 = 45). Faltan las horas. **Al cliente le dijiste 40 €/h el 1/10:** avísale del cambio.
+
+**Cambio respecto a la versión anterior:** quité "+6 mA CC" de los diferenciales de línea. El manual de V2C pide solo diferencial de 30 mA tipo A, exclusivo de cada estación. Para la versión sin protecciones añadí 2 detectores de fugas DC (accesorio V2C) a confirmar con V2C. La versión con protecciones ya integra tipo A 30 mA / 6 mA CC por toma según la ficha técnica.
