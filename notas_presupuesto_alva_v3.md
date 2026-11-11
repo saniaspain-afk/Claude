@@ -59,6 +59,6 @@ Ya están en el Excel los costes de las dos Alva y de la tarjeta RFID. Son PVP m
 
 **Sin precio fiable (siguen amarillas):** cable 3G25 (ni Obramat ni Leroy lo tienen; 3G16 en Leroy desde 10,29 €/m), diferencial 2P 63 A tipo A (el de Obramat no indica el tipo; el tipo A de Leroy es de un vendedor marketplace), C16 y diferencial de la toma de garaje, base con llave, tubos, pinza del ControlBox, CIE.
 
-**Mano de obra:** 45 €/h + IVA como precio de venta fijo (en el Excel: coste 30 × 1,5 = 45). Faltan las horas. **Al cliente le dijiste 40 €/h el 1/10:** avísale del cambio.
+**Mano de obra:** 40 €/h sin IVA (+ IVA 21 % en el total) como precio de venta fijo, sin margen; coincide con lo comunicado al cliente el 1/10. Faltan las horas.
 
 **Cambio respecto a la versión anterior:** quité "+6 mA CC" de los diferenciales de línea. El manual de V2C pide solo diferencial de 30 mA tipo A, exclusivo de cada estación. Para la versión sin protecciones añadí 2 detectores de fugas DC (accesorio V2C) a confirmar con V2C. La versión con protecciones ya integra tipo A 30 mA / 6 mA CC por toma según la ficha técnica.
