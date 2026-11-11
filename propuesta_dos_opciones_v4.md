@@ -145,7 +145,10 @@ Con los precios unitarios actuales no se puede subir a 35 % repartiendo el marge
 - **B frente a A + web:** +644,92 €. Qué cubre: pedido y recepción, comprobación de compatibilidad, configuración, garantía legal de 3 años que asume PAV como vendedor, un único responsable y la devolución íntegra si los equipos no están el 15/12.
 - B frente a la Alva: +921,93 € (v3, sección 5).
 
-## 5. Qué cambia en el resto
+## 5. Aviso sobre la ISO 15118-20
+La web de V2C dice que la ISO 15118-20 es "donde queremos llegar" y que solo el Pole Pro soporta hoy Plug & Charge con ISO 15118-2. No hay confirmación de que el Trydan Pro la soporte. Por eso **los dos cargadores deben quedar instalados y en servicio en 2026**; si la instalación pasara a 2027 no habría base para decir que cumplen. Detalle y fuentes en `analisis_iso_15118_trydan.md`.
+
+## 6. Qué cambia en el resto
 - **Calendario (v3, sección 8):** en la opción A, la fecha de llegada del equipo la controla ella, no PAV. Hay que pedirle el justificante de pedido.
 - **Mensaje a V2C (v3, sección 9):** añade "tarifa de instalador" y pregunta por la venta a instaladores del Trydan Pro; es la palanca de margen.
 - **CIE:** los datos de los cargadores (modelo, número de serie) los necesitas antes de la memoria técnica.
