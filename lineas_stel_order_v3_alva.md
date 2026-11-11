@@ -25,3 +25,32 @@ Valores con los parámetros de la hoja `Parámetros` del Excel (línea 15 m, UTP
 Base imponible **4.623,78 €** · IVA 21 % 970,99 € · **TOTAL 5.594,77 €**
 
 Líneas que son estimación mía y debes validar antes de enviar: 4, 5, 9, 11, 14, 16, 17. El resto sale de V2C (oficial) o de Obramat/Leroy Merlin.
+
+
+---
+
+## Presupuesto B: Alva CON protecciones, una línea de 63 A (NO enviar hasta que V2C confirme el calibre del seccionador de entrada)
+
+| # | Descripción | Cant. | P. unit. | Importe |
+|---|---|---:|---:|---:|
+| 1 | Cargador V2C Alva doble 7,4 kW monofásico CON protecciones integradas, 2 cables Tipo 2 de 5 m, lector RFID con 1 tarjeta, ControlBox y pinza incluidos, Ethernet/4G | 1 | 2.392,50 € | 2.392,50 € |
+| 2 | Tarjetas RFID V2C adicionales (con la incluida suman 3) | 2 | 5,18 € | 10,36 € |
+| 3 | Línea única RZ1-K (AS) 0,6/1 kV 3G25 mm², m | 15 | 24,00 € | 360,00 € |
+| 4 | Canalización y fijaciones, m | 15 | 6,00 € | 90,00 € |
+| 5 | Magnetotérmico 2P C63 | 1 | 69,68 € | 69,68 € |
+| 6 | Diferencial 2P 63 A 30 mA tipo A superinmunizado | 1 | 183,00 € | 183,00 € |
+| 7 | Protector contra sobretensiones permanentes y transitorias en el cuadro (ITC-BT-52 apartado 6.4) | 1 | 111,03 € | 111,03 € |
+| 8 | Cable de datos UTP Cat6 (ControlBox-Alva y red del router-Alva), m | 30 | 1,14 € | 34,20 € |
+| 9 | Canalización independiente de la fuerza para los cables de comunicaciones, m | 15 | 3,75 € | 56,25 € |
+| 10 | Línea independiente de la toma de garaje: cable 3G2,5 mm² RZ1-K (AS) y canalización, m | 15 | 5,10 € | 76,50 € |
+| 11 | Toma de garaje: magnetotérmico C10, diferencial 30 mA tipo A y base de enchufe con llave | 1 | 105,00 € | 105,00 € |
+| 12 | Sustitución del IGA por magnetotérmico 2P 63 A | 1 | 69,68 € | 69,68 € |
+| 13 | Sustitución de diferenciales del cuadro de la vivienda para la nueva potencia, uds | 2 | 58,89 € | 117,78 € |
+| 14 | Material auxiliar (bornas, punteras cuadradas, cajas, regletas, fijaciones) | 1 | 150,00 € | 150,00 € |
+| 15 | Mano de obra: instalación, conexionado, configuración y puesta en marcha (horas) | 20 | 40,00 € | 800,00 € |
+| 16 | Memoria técnica de diseño y CIE de la estación de recarga (ITC-BT-52 y ITC-BT-04), tramitación TECI | 1 | 225,00 € | 225,00 € |
+| 17 | CIE de la vivienda y gestión del aumento a 14,49 kW en periodo P2 (se factura solo si el boletín actual no admite esa potencia) | 1 | 300,00 € | 300,00 € |
+
+Base imponible **5.150,98 €** · IVA 21 % 1.081,71 € · **TOTAL 6.232,69 €**
+
+Estimaciones a validar: líneas 3, 4, 9, 11, 14, 16, 17. Horas: 20 (una sola línea). Sin confirmación de V2C este presupuesto no se puede garantizar.
