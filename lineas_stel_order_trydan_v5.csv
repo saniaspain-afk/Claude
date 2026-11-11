@@ -1,0 +1,18 @@
+bloque,descripcion,cantidad,precio_unitario
+1 Equipos,"Dos cargadores V2C Trydan Pro monofásicos, 7,4 kW (32 A) cada uno, cable liso Tipo 2 de 5 m, sin protecciones integradas y sin contador MID, lector RFID/NFC, Ethernet/Wi-Fi/4G, con V2C ControlBox y pinza amperimétrica incluidos (un cargador hace de maestro del balanceo de potencia)",2,1099
+1 Equipos,"Llaveros e-Key Bluetooth (BLE, dirección MAC fija) para bloquear y desbloquear por proximidad con V2C SmartLock (3 uds)",3,12.00
+2 Líneas y canalización,"Dos líneas de alimentación independientes, cable RZ1-K (AS) 0,6/1 kV 3G10 mm² (cobre, libre de halógenos), una por cargador, del cuadro de la vivienda a cada cargador (m totales, a confirmar en visita)",19,8.70
+2 Líneas y canalización,"Tubo y fijaciones para las líneas de fuerza (m, a confirmar en visita)",12,6.00
+3 Protecciones y cuadro,"Magnetotérmico 2P C40 curva C, uno por línea (ITC-BT-52, apartado 6.3: el calibre puede superar la intensidad del cargador por tolerancias y consumo propio)",2,38
+3 Protecciones y cuadro,"Diferencial 2P 40 A, 30 mA, tipo A superinmunizado, uno por línea (uno propio por cargador: ITC-BT-52, apartado 6.1)",2,59
+3 Protecciones y cuadro,"Protector contra sobretensiones permanentes y transitorias (ITC-BT-52, apartado 6.4)",1,112
+3 Protecciones y cuadro,"Sustitución del IGA por magnetotérmico 2P 63 A (para 14,49 kW)",1,70
+3 Protecciones y cuadro,"Sustitución de diferenciales del cuadro de la vivienda para la nueva potencia (uds, a confirmar con foto del cuadro)",2,59
+3 Protecciones y cuadro,"Material auxiliar y señalización (bornas, punteras, cajas, cartel reflectante exigido por ITC-BT-52, apartado 5)",1,180
+4 Red y comunicaciones,"Cable UTP Cat6: ControlBox-cargador maestro, router-cada cargador y enlace maestro-extra para el balanceo. Terminan dentro de los cargadores, sin rosetas ni cajas en el garaje (m totales)",26,1.20
+4 Red y comunicaciones,"Canalización independiente de la fuerza para los cables de comunicaciones (m, a confirmar en visita)",12,3.80
+5 Toma de garaje,"Línea independiente para la toma de garaje: cable 3G2,5 mm² RZ1-K (AS) y canalización (m, a confirmar en visita)",15,5.10
+5 Toma de garaje,"Toma de garaje para bicicletas y patinetes: magnetotérmico C10, diferencial 30 mA tipo A y base de enchufe en envolvente cerrada con llave (ITC-BT-52, tabla 3)",1,105
+6 Mano de obra,"Mano de obra: instalación de los dos cargadores, conexionado, mediciones, configuración del balanceo, e-Keys y V2C Cloud, y puesta en marcha (horas, a confirmar en visita)",22,40
+7 Legalización y gestiones,"Memoria técnica de diseño y CIE de la instalación de recarga, dos cargadores (ITC-BT-52, ITC-BT-04), registro en Industria (TECI, Junta de Andalucía)",1,300
+7 Legalización y gestiones,"CIE de la vivienda para 14,49 kW y gestión del aumento de potencia en periodo P2 con la comercializadora y e-distribución. Incluido en el precio total; si su boletín actual ya admite 14,49 kW, se descuenta íntegramente",1,290
