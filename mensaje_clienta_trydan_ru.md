@@ -1,6 +1,6 @@
 # Mensaje a la clienta (ruso) para el esquema de dos Trydan Pro
 
-**No lo envíes hasta tener por escrito de V2C (Cristóbal) que la Alva se retira.** Antes de enviar: confirma plazo y precio de los dos Trydan Pro, comprueba el desglose con el PDF 00040 del 13/10, manda las preguntas a V2C (sección 10 de `propuesta_trydan_pav_group.md`, porque el mensaje dice que ya están enviadas) y rellena la fecha de visita. Revisa cada cifra con Stel Order.
+**Basado en lo que Cristóbal (V2C) confirmó en el audio sobre la retirada de la Alva por la ISO 15118-20.** Si la clienta pide prueba, pídele un mensaje escrito. Antes de enviar: confirma plazo y precio de los dos Trydan Pro, comprueba el desglose con el PDF 00040 del 13/10, manda las preguntas a V2C (sección 10 de `propuesta_trydan_pav_group.md`, porque el mensaje dice que ya están enviadas) y rellena la fecha de visita. Revisa cada cifra con Stel Order.
 
 ## Mensaje de envío
 Анастасия, добрый день!
