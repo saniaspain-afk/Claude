@@ -2,9 +2,9 @@
 
 | | A (PRV00041) Trydan, cliente compra | B (PRV00042) Trydan llave en mano | C (PRV00043) Alva llave en mano |
 |---|---|---|---|
-| Base | 2.645,60 | 4.852,60 | 4.183,70 |
-| Total con IVA | 3.201,18 | 5.871,65 | 5.062,28 |
-| Margen | 35,1 % | 30,19 % | 30.73 % |
+| Base | 2.727,20 | 4.934,20 | 4.290,50 |
+| Total con IVA | 3.299,91 | 5.970,38 | 5.191,51 |
+| Margen | 35,1 % | 30,25 % | 30,81 % |
 
 ## Comprobado automáticamente
 - Suma de subtotales de bloque = base en los tres PDF (assert en el generador).
@@ -30,3 +30,6 @@
 3. Capacidad de los bornes de la Alva sin protecciones para 3G10.
 4. Si PAV GROUP tiene tarifa de instalador (podría mejorar el margen).
 5. Datos de la clienta: NIF, dirección, teléfono, boletín actual.
+
+## Metros (confirmados 12/11/2026)
+10 m del cuadro al primer cargador; el segundo cargador se deja como estaba (5 m más, solo A y B). A y B: 25 m de cable 3G10 y 15 m de tubo. C: 20 m de cable (10 m por línea), 20 m de tubo (uno por línea), 20 m de UTP y 10 m de tubo de comunicaciones.

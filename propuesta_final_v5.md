@@ -13,10 +13,10 @@ En el chat del 12/11 Cristóbal (representante de V2C) contesta a tu pregunta:
 Precio, con una corrección frente a la v4: añadí el cable Ethernet del router al cargador extra (+12 m de UTP) y una hora de obra, porque el extra necesita red para RFID, e-Keys y V2C Cloud mientras V2C no diga lo contrario.
 | | v4 | **Final** |
 |---|---:|---:|
-| **B, llave en mano** (con IVA) | 5.805,82 € | **5.871,65 €** |
-| **A, ella compra los cargadores** (con IVA) | 3.135,35 € | **3.201,18 €** |
-| A más los dos Trydan Pro de la web (2.014,66 €) | 5.150,01 € | **5.215,84 €** |
-Margen con costes minoristas: B 30.2 %, A 35,1 %. Se quitó la variante de la Alva.
+| **B, llave en mano** (con IVA) | 5.805,82 € | **5.970,38 €** |
+| **A, ella compra los cargadores** (con IVA) | 3.146,24 € | **3.299,91 €** |
+| A más los dos Trydan Pro de la web (2.014,66 €) | 5.160,90 € | **5.314,57 €** |
+Margen con costes minoristas: B 30.2 %, A 35.1 %. Se quitó la variante de la Alva.
 
 ---
 
@@ -77,17 +77,17 @@ Margen con costes minoristas: B 30.2 %, A 35,1 %. Se quitó la variante de la Al
 El aumento a 14,49 kW depende de e-distribución (plazos de respuesta reducidos a la mitad para ≤ 15 kW; sin plazo publicado de ejecución): no lo prometas. Mientras tanto el balanceo reparte la potencia contratada actual.
 
 ## 4. Precio y margen
-- **B:** base 4.852,60 €, **5.871,65 € con IVA**, margen 30.2 %, beneficio 1.465,04 €. Sin CIE de la vivienda: 5.520,75 €.
-- **A:** base 2.645,60 €, **3.201,18 € con IVA**, margen 35,1 %, beneficio 929,04 €. Sin CIE de la vivienda: 2.850,28 €.
-- **Comparación con la Alva** (4.883,89 € + Wi-Fi 242,00 € = 5.125,89 €): A más los cargadores de la web = 5.215,84 € (**+89,95 €**); B = 5.871,65 € (+655,81 €). Lo comparable que ya incluía cuesta 4.962,58 € y lo nuevo que ella pidió suma 909,07 €. Esto supone que esas partidas no estaban en el PDF 00039.
+- **B:** base 4.934,20 €, **5.970,38 € con IVA**, margen 30.2 %, beneficio 1.492,46 €. Sin CIE de la vivienda: 5.619,48 €.
+- **A:** base 2.727,20 €, **3.299,91 € con IVA**, margen 35.1 %, beneficio 956,46 €. Sin CIE de la vivienda: 2.949,01 €.
+- **Comparación con la Alva** (4.883,89 € + Wi-Fi 242,00 € = 5.125,89 €): A más los cargadores de la web = 5.314,57 € (**+188,68 €**); B = 5.970,38 € (+844,49 €). Lo comparable que ya incluía cuesta 5.047,51 € y lo nuevo que ella pidió suma 922,87 €. Esto supone que esas partidas no estaban en el PDF 00039.
 - **Si consigues tarifa de instalador** (descuentos supuestos, no datos): con V2C −10 % y materiales −20 %, B deja 35,5 % sin tocar el precio.
 | Dto. V2C | Dto. materiales | Margen B | Beneficio B |
 |---|---|---:|---:|
-| 0 % | 0 % | 30.2 % | 1.465,04 € |
-| 10 % | 20 % | 35.5 % | 1.723,92 € |
-| 15 % | 25 % | 37.7 % | 1.830,27 € |
-| 20 % | 30 % | 39.9 % | 1.936,61 € |
-| 25 % | 35 % | 42.1 % | 2.042,95 € |
+| 0 % | 0 % | 30.2 % | 1.492,46 € |
+| 10 % | 20 % | 35.6 % | 1.758,28 € |
+| 15 % | 25 % | 37.8 % | 1.866,36 € |
+| 20 % | 30 % | 40.0 % | 1.974,43 € |
+| 25 % | 35 % | 42.2 % | 2.082,51 € |
 
 ## 5. Pendientes
 - **V2C (Cristóbal):** stock y plazo de 2 Trydan Pro; tarifa de instalador; las dudas técnicas del mensaje a Cristóbal (extra con Internet, longitud A/B, radios, RFID, e-Key, C32/C40, detector DC, protector, garantía).

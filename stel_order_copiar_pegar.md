@@ -7,8 +7,8 @@ Dos presupuestos: **A** (la clienta compra los cargadores) y **B** (llave en man
 |---|---|---:|---:|---:|
 | 1 | 2 cargadores V2C Trydan Pro monofásicos 7,4 kW, cable Type 2 5 m, RFID, Ethernet, con ControlBox y pinza | 2 | 1.099,00 | 2.198,00 |
 | 2 | 3 llaveros RFID 13,56 MHz (MIFARE), con prueba previa; respaldo: tarjeta RFID V2C | 3 | 3,00 | 9,00 |
-| 3 | Cable RZ1-K (AS) 0,6/1 kV 3G10 mm², 2 líneas independientes de 32 A (m) | 19 | 8,70 | 165,30 |
-| 4 | Tubo y fijaciones para las líneas de fuerza (m) | 12 | 6,00 | 72,00 |
+| 3 | Cable RZ1-K (AS) 0,6/1 kV 3G10 mm², 2 líneas independientes de 32 A (m) | 25 | 8,70 | 217,50 |
+| 4 | Tubo y fijaciones para las líneas de fuerza (m) | 15 | 6,00 | 90,00 |
 | 5 | Magnetotérmico 2P C40 curva C, uno por línea | 2 | 38,00 | 76,00 |
 | 6 | Diferencial 2P 40 A 30 mA tipo A superinmunizado, uno por línea | 2 | 59,00 | 118,00 |
 | 7 | Protector de sobretensiones permanentes y transitorias (ITC-BT-52, 6.4) | 1 | 112,00 | 112,00 |
@@ -16,15 +16,15 @@ Dos presupuestos: **A** (la clienta compra los cargadores) y **B** (llave en man
 | 9 | Sustitución de diferenciales del cuadro de la vivienda (uds) | 2 | 59,00 | 118,00 |
 | 10 | Material auxiliar y señalización (incluye cartel reflectante ITC-BT-52) | 1 | 180,00 | 180,00 |
 | 11 | Cable UTP Cat6: ControlBox, router-cargadores y enlace entre cargadores (m) | 31 | 1,20 | 37,20 |
-| 12 | Canalización independiente para cables de comunicaciones (m) | 12 | 3,80 | 45,60 |
+| 12 | Canalización independiente para cables de comunicaciones (m) | 15 | 3,80 | 57,00 |
 | 13 | Línea 3G2,5 RZ1-K (AS) y canalización para la toma de garaje (m) | 15 | 5,10 | 76,50 |
 | 14 | Toma de garaje: magnetotérmico C10, diferencial 30 mA tipo A y base con llave | 1 | 105,00 | 105,00 |
 | 15 | Mano de obra: instalación, configuración y puesta en marcha (horas) | 22 | 40,00 | 880,00 |
 | 16 | Memoria técnica de diseño y CIE de la instalación de recarga (TECI) | 1 | 300,00 | 300,00 |
 | 17 | CIE de la vivienda a 14,49 kW y gestión de potencia P2 (descuento íntegro si no hace falta) | 1 | 290,00 | 290,00 |
 
-Base imponible **4.852,60 €** · IVA 21 % **1.019,05 €** · **TOTAL 5.871,65 €**
-(Sin la línea 17, si el boletín ya admite 14,49 kW: base 4.562,60 €, total 5.520,75 €.)
+Base imponible **4.934,20 €** · IVA 21 % **1.036,18 €** · **TOTAL 5.970,38 €**
+(Sin la línea 17, si el boletín ya admite 14,49 kW: base 4.644,20 €, total 5.619,48 €.)
 
 ### Notas / condiciones para pegar en el presupuesto B
 Presupuesto sujeto a visita técnica: los metros, los diferenciales a sustituir y las horas marcados "a confirmar" se ajustan a precio unitario tras la visita (mano de obra 40 € + IVA/h). Precios sin IVA; IVA 21 % en el total. Validez: 15 días.
@@ -56,11 +56,11 @@ No incluye: obra civil y acabados; derivación individual, LGA o centralización
 
 ---
 
-## PRESUPUESTO A (sin llaveros): la clienta compra los cargadores; PAV GROUP instala y legaliza
+## PRESUPUESTO A: la clienta compra los cargadores; PAV GROUP instala y legaliza
 | # | Concepto | Cant. | Precio unit. (sin IVA) | Importe |
 |---|---|---:|---:|---:|
-| 1 | Cable RZ1-K (AS) 0,6/1 kV 3G10 mm², 2 líneas independientes de 32 A (m) | 19 | 8,70 | 165,30 |
-| 2 | Tubo y fijaciones para las líneas de fuerza (m) | 12 | 6,00 | 72,00 |
+| 1 | Cable RZ1-K (AS) 0,6/1 kV 3G10 mm², 2 líneas independientes de 32 A (m) | 25 | 8,70 | 217,50 |
+| 2 | Tubo y fijaciones para las líneas de fuerza (m) | 15 | 6,00 | 90,00 |
 | 3 | Magnetotérmico 2P C40 curva C, uno por línea | 2 | 38,00 | 76,00 |
 | 4 | Diferencial 2P 40 A 30 mA tipo A superinmunizado, uno por línea | 2 | 59,00 | 118,00 |
 | 5 | Protector de sobretensiones permanentes y transitorias (ITC-BT-52, 6.4) | 1 | 112,00 | 112,00 |
@@ -68,16 +68,16 @@ No incluye: obra civil y acabados; derivación individual, LGA o centralización
 | 7 | Sustitución de diferenciales del cuadro de la vivienda (uds) | 2 | 59,00 | 118,00 |
 | 8 | Material auxiliar y señalización (incluye cartel reflectante ITC-BT-52) | 1 | 180,00 | 180,00 |
 | 9 | Cable UTP Cat6: ControlBox, router-cargadores y enlace entre cargadores (m) | 31 | 1,20 | 37,20 |
-| 10 | Canalización independiente para cables de comunicaciones (m) | 12 | 3,80 | 45,60 |
+| 10 | Canalización independiente para cables de comunicaciones (m) | 15 | 3,80 | 57,00 |
 | 11 | Línea 3G2,5 RZ1-K (AS) y canalización para la toma de garaje (m) | 15 | 5,10 | 76,50 |
 | 12 | Toma de garaje: magnetotérmico C10, diferencial 30 mA tipo A y base con llave | 1 | 105,00 | 105,00 |
 | 13 | Mano de obra: instalación, configuración y puesta en marcha (horas) | 22 | 40,00 | 880,00 |
 | 14 | Memoria técnica de diseño y CIE de la instalación de recarga (TECI) | 1 | 300,00 | 300,00 |
 | 15 | CIE de la vivienda a 14,49 kW y gestión de potencia P2 (descuento íntegro si no hace falta) | 1 | 290,00 | 290,00 |
 
-Base imponible **2.645,60 €** · IVA 21 % **555,58 €** · **TOTAL 3.201,18 €**
-(Sin la línea 15, si el boletín ya admite 14,49 kW: base 2.355,60 €, total 2.850,28 €.)
-Con los dos Trydan Pro de la web de V2C (2 × 1.007,33 € IVA incl.), el total para la clienta es **5.215,84 €**.
+Base imponible **2.727,20 €** · IVA 21 % **572,71 €** · **TOTAL 3.299,91 €**
+(Sin la línea 16, si el boletín ya admite 14,49 kW: base 2.437,20 €, total 2.949,01 €.)
+Con los dos Trydan Pro de la web de V2C (2 × 1.007,33 € IVA incl.), el total para la clienta es **5.314,57 €**.
 
 ### Notas / condiciones para pegar en el presupuesto A
 Presupuesto sujeto a visita técnica: los metros, los diferenciales a sustituir y las horas marcados "a confirmar" se ajustan a precio unitario tras la visita (mano de obra 40 € + IVA/h). Precios sin IVA; IVA 21 % en el total. Validez: 15 días.
@@ -116,22 +116,22 @@ Presupuesto: PRESUPUESTODEVENTA-00043-Opcion_C_Alva_llave_en_mano.pdf. PAV GROUP
 |---|---|---|---|
 | 1,00 | 1.710,00 | 1.710,00 | Cargador V2C Alva doble, 7,4 kW por toma (monofásico, 32 A), sin protecciones integradas y sin contador MID, 2 cables Type 2 de 5 m, lector RFID con 1 tarjeta, V2C ControlBox y pinza amperimétrica incluidos, Ethernet/Wi-Fi/4G (ref. ALV-X2-32-1-L5-ES) |
 | 3,00 | 3,00 | 9,00 | Llaveros RFID de 13,56 MHz (MIFARE, ISO 14443A) para arrancar y bloquear la carga acercándolos al cargador (3 uds). Se prueban con los cargadores antes de la entrega; si alguno no se lee, se sustituye por una tarjeta RFID original V2C |
-| 14,00 | 8,70 | 121,80 | Dos líneas de alimentación independientes, cable RZ1-K (AS) 0,6/1 kV 3G10 mm² (cobre, libre de halógenos), una por toma, del cuadro de la vivienda al cargador, cada una a su entrada de cable (m totales, a confirmar en visita) |
-| 14,00 | 6,00 | 84,00 | Dos tubos independientes (uno por línea) y fijaciones (m totales, a confirmar en visita) |
+| 20,00 | 8,70 | 174,00 | Dos líneas de alimentación independientes, cable RZ1-K (AS) 0,6/1 kV 3G10 mm² (cobre, libre de halógenos), una por toma, del cuadro de la vivienda al cargador, cada una a su entrada de cable (m totales, a confirmar en visita) |
+| 20,00 | 6,00 | 120,00 | Dos tubos independientes (uno por línea) y fijaciones (m totales, a confirmar en visita) |
 | 2,00 | 38,00 | 76,00 | Magnetotérmico 2P C40 curva C, uno por línea (ITC-BT-52, apartado 6.3: el calibre puede superar la intensidad del cargador por tolerancias y consumo propio) |
 | 2,00 | 59,00 | 118,00 | Diferencial 2P 40 A, 30 mA, tipo A superinmunizado, uno por línea (uno propio por cargador: ITC-BT-52, apartado 6.1) |
 | 1,00 | 112,00 | 112,00 | Protector contra sobretensiones permanentes y transitorias (ITC-BT-52, apartado 6.4) |
 | 1,00 | 70,00 | 70,00 | Sustitución del IGA por magnetotérmico 2P 63 A (para 14,49 kW) |
 | 2,00 | 59,00 | 118,00 | Sustitución de diferenciales del cuadro de la vivienda para la nueva potencia (uds, a confirmar con foto del cuadro) |
 | 1,00 | 150,00 | 150,00 | Material auxiliar y señalización (bornas, punteras, cajas, cartel reflectante exigido por ITC-BT-52, apartado 5) |
-| 14,00 | 1,20 | 16,80 | Cable UTP Cat6: ControlBox-cargador y router-cargador (Ethernet). Terminan dentro del cargador, sin rosetas, switches ni cajas en el garaje (m totales) |
-| 7,00 | 3,80 | 26,60 | Canalización independiente de la fuerza para los cables de comunicaciones (m, a confirmar en visita) |
+| 20,00 | 1,20 | 24,00 | Cable UTP Cat6: ControlBox-cargador y router-cargador (Ethernet). Terminan dentro del cargador, sin rosetas, switches ni cajas en el garaje (m totales) |
+| 10,00 | 3,80 | 38,00 | Canalización independiente de la fuerza para los cables de comunicaciones (m, a confirmar en visita) |
 | 15,00 | 5,10 | 76,50 | Línea independiente para la toma de garaje: cable 3G2,5 mm² RZ1-K (AS) y canalización (m, a confirmar en visita) |
 | 1,00 | 105,00 | 105,00 | Toma de garaje para bicicletas y patinetes: magnetotérmico C10, diferencial 30 mA tipo A y base de enchufe en envolvente cerrada con llave (ITC-BT-52, tabla 3) |
 | 20,00 | 40,00 | 800,00 | Mano de obra: instalación de los dos cargadores, conexionado, mediciones, configuración del balanceo, e-Keys y V2C Cloud, y puesta en marcha (horas, a confirmar en visita) |
 | 1,00 | 300,00 | 300,00 | Memoria técnica de diseño y CIE de la instalación de recarga, cargador de dos tomas (ITC-BT-52, ITC-BT-04), registro en Industria (TECI, Junta de Andalucía) |
 | 1,00 | 290,00 | 290,00 | CIE de la vivienda para 14,49 kW y gestión del aumento de potencia en periodo P2 con la comercializadora y e-distribución. Incluido en el precio total; si su boletín actual ya admite 14,49 kW, se descuenta íntegramente |
 
-**BASE 4.183,70 € · IVA 21 % 878,58 € · TOTAL 5.062,28 €** (margen 30.73 %).
+**BASE 4.290,50 € · IVA 21 % 901,01 € · TOTAL 5.191,51 €** (margen 30.81 %).
 
 Sin CIE de la vivienda (si el boletín ya admite 14,49 kW): -350,90 € con IVA.
