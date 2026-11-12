@@ -106,3 +106,34 @@ No incluye: obra civil y acabados; derivación individual, LGA o centralización
 14. Mano de obra: instalación de los dos cargadores, conexionado, mediciones, configuración del balanceo, e-Keys y V2C Cloud, y puesta en marcha (horas, a confirmar en visita)
 15. Memoria técnica de diseño y CIE de la instalación de recarga, dos cargadores (ITC-BT-52, ITC-BT-04), registro en Industria (TECI, Junta de Andalucía)
 16. CIE de la vivienda para 14,49 kW y gestión del aumento de potencia en periodo P2 con la comercializadora y e-distribución. Incluido en el precio total; si su boletín actual ya admite 14,49 kW, se descuenta íntegramente
+
+
+---
+
+# OPCIÓN C — V2C Alva, llave en mano (PRV00043)
+
+Presupuesto: PRESUPUESTODEVENTA-00043-Opcion_C_Alva_llave_en_mano.pdf. PAV GROUP pide la Alva (ALV-X2-32-1-L5-ES) en la tienda oficial de V2C.
+
+| Cant. | Precio | Importe | Concepto |
+|---|---|---|---|
+| 1,00 | 1.710,00 | 1.710,00 | Cargador V2C Alva doble, 7,4 kW por toma (monofásico, 32 A), sin protecciones integradas y sin contador MID, 2 cables Type 2 de 5 m, lector RFID con 1 tarjeta, V2C ControlBox y pinza amperimétrica incluidos, Ethernet/Wi-Fi/4G (ref. ALV-X2-32-1-L5-ES) |
+| 3,00 | 3,00 | 9,00 | Llaveros RFID de 13,56 MHz (MIFARE, ISO 14443A) para arrancar y bloquear la carga acercándolos al cargador (3 uds). Se prueban con los cargadores antes de la entrega; si alguno no se lee, se sustituye por una tarjeta RFID original V2C |
+| 14,00 | 8,70 | 121,80 | Dos líneas de alimentación independientes, cable RZ1-K (AS) 0,6/1 kV 3G10 mm² (cobre, libre de halógenos), una por toma, del cuadro de la vivienda al cargador, cada una a su entrada de cable (m totales, a confirmar en visita) |
+| 14,00 | 6,00 | 84,00 | Dos tubos independientes (uno por línea) y fijaciones (m totales, a confirmar en visita) |
+| 2,00 | 38,00 | 76,00 | Magnetotérmico 2P C40 curva C, uno por línea (ITC-BT-52, apartado 6.3: el calibre puede superar la intensidad del cargador por tolerancias y consumo propio) |
+| 2,00 | 59,00 | 118,00 | Diferencial 2P 40 A, 30 mA, tipo A superinmunizado, uno por línea (uno propio por cargador: ITC-BT-52, apartado 6.1) |
+| 1,00 | 112,00 | 112,00 | Protector contra sobretensiones permanentes y transitorias (ITC-BT-52, apartado 6.4) |
+| 1,00 | 70,00 | 70,00 | Sustitución del IGA por magnetotérmico 2P 63 A (para 14,49 kW) |
+| 2,00 | 59,00 | 118,00 | Sustitución de diferenciales del cuadro de la vivienda para la nueva potencia (uds, a confirmar con foto del cuadro) |
+| 1,00 | 150,00 | 150,00 | Material auxiliar y señalización (bornas, punteras, cajas, cartel reflectante exigido por ITC-BT-52, apartado 5) |
+| 14,00 | 1,20 | 16,80 | Cable UTP Cat6: ControlBox-cargador y router-cargador (Ethernet). Terminan dentro del cargador, sin rosetas, switches ni cajas en el garaje (m totales) |
+| 7,00 | 3,80 | 26,60 | Canalización independiente de la fuerza para los cables de comunicaciones (m, a confirmar en visita) |
+| 15,00 | 5,10 | 76,50 | Línea independiente para la toma de garaje: cable 3G2,5 mm² RZ1-K (AS) y canalización (m, a confirmar en visita) |
+| 1,00 | 105,00 | 105,00 | Toma de garaje para bicicletas y patinetes: magnetotérmico C10, diferencial 30 mA tipo A y base de enchufe en envolvente cerrada con llave (ITC-BT-52, tabla 3) |
+| 20,00 | 40,00 | 800,00 | Mano de obra: instalación de los dos cargadores, conexionado, mediciones, configuración del balanceo, e-Keys y V2C Cloud, y puesta en marcha (horas, a confirmar en visita) |
+| 1,00 | 300,00 | 300,00 | Memoria técnica de diseño y CIE de la instalación de recarga, cargador de dos tomas (ITC-BT-52, ITC-BT-04), registro en Industria (TECI, Junta de Andalucía) |
+| 1,00 | 290,00 | 290,00 | CIE de la vivienda para 14,49 kW y gestión del aumento de potencia en periodo P2 con la comercializadora y e-distribución. Incluido en el precio total; si su boletín actual ya admite 14,49 kW, se descuenta íntegramente |
+
+**BASE 4.183,70 € · IVA 21 % 878,58 € · TOTAL 5.062,28 €** (margen 30.73 %).
+
+Sin CIE de la vivienda (si el boletín ya admite 14,49 kW): -350,90 € con IVA.
