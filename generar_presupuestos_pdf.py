@@ -53,12 +53,18 @@ def notes(opt,cie_incl):
  "Los cargadores V2C Trydan Pro no incorporan la norma EN ISO 15118-20 (comunicado del representante de V2C el 12/11/2026). La instalación debe quedar terminada y en servicio en 2026; una sustitución o renovación posterior de los cargadores deberá cumplir esa norma (Reglamento Delegado (UE) 2025/656, anexo II, punto 2.1.3). Si el cliente compra otro modelo, el estado de la ISO lo declara el fabricante o el vendedor.",
  "No incluye: obra civil y acabados; derivación individual, LGA o centralización del edificio si no admiten 14,49 kW; iluminación del garaje si no alcanza 50 lux a nivel de suelo (ITC-BT-52, apartado 5); comunicación a la comunidad (LPH, art. 17.5); tasas administrativas, derechos de acceso o extensión y costes de e-distribución (los factura la comercializadora); configuración del router y de la red del cliente; detector de fugas DC (opcional V2C); ayudas."]
     return base
+
+LOGO='/tmp/claude-0/-home-user-Claude/2f56e824-52b2-5380-ba87-4345eb1fdd2d/scratchpad/pdf/logo_opaco.png'
+def logo_patch(c):
+    white_rect(c,29,11,252,88.5)
+    c.drawImage(LOGO,30,H-88,width=220,height=76)
 def build_pdf(opt,num,subtitle,out,fecha='12/11/2026'):
     keys=[r for r in R if not (opt=='A' and r[0]=='trydan')]
     L=build(keys); S,C,I,T,M=totals(L)
     cie_incl=es(L[-1]['imp']*D('1.21'))
     buf=io.BytesIO(); c=canvas.Canvas(buf,pagesize=(595,842))
     # ---------- página 1
+    logo_patch(c)
     white_rect(c,60,106,540,124); txt(c,297.5,109.7,subtitle,10,align='c',maxw=470)
     white_rect(c,18,147,200,170); txt(c,20,149.4,"Número:",8); txt(c,57.2,149.4,num,8,True); txt(c,20,159.4,"Fecha:",8); txt(c,49.1,159.4,fecha,8,True)
     white_rect(c,313,147,565,200)
@@ -80,6 +86,7 @@ def build_pdf(opt,num,subtitle,out,fecha='12/11/2026'):
     white_rect(c,495,815,580,835); txt(c,576,817.5,f"{num} ({fecha})",6,color=FG,align='r'); txt(c,576,825.2,"1 / 2",7,color=FG,align='r')
     c.showPage()
     # ---------- página 2: condiciones
+    logo_patch(c)
     white_rect(c,60,106,540,124); txt(c,297.5,109.7,"Condiciones y notas del presupuesto "+num,10,align='c')
     white_rect(c,18,126,580,770)
     txt(c,20,134.4,"CONDICIONES Y NOTAS",8,True,DK); c.setStrokeColor(GR); c.setLineWidth(1); c.line(20,H-144.5,574.5,H-144.5)
