@@ -1,5 +1,7 @@
 # ¿Nos sirve el Trydan? Análisis de la ISO 15118-20 (11/11/2026)
 
+> **Actualización 12/11/2026:** Cristóbal (V2C) confirmó en el chat que el Trydan Pro **no cumple** la ISO 15118-20, que V2C no tendrá ISO hasta febrero o marzo de 2027, y que la única opción viable es instalarlo antes de 2027. Lo que sigue se mantiene; la duda sobre si el Trydan Pro la soporta ya está resuelta (no la soporta). Decisión y calendario en `propuesta_final_v5.md`.
+
 ## Respuesta
 **Sí, con una condición: los dos Trydan Pro tienen que quedar instalados y en servicio en 2026.**
 - **Para lo que pide la clienta, sirve:** RFID/NFC, Ethernet, cable Type 2 de 5 m, 32 A por cargador, ControlBox con balanceo en serie. [SEGURO, manuales y web de V2C]

@@ -1,5 +1,7 @@
 # Mensajes para Cristóbal (V2C), listos para copiar en WhatsApp
 
+> **Actualización 12/11/2026:** Cristóbal ya contestó que el Trydan Pro no cumple la ISO y que V2C no tendrá ISO hasta feb/mar de 2027. De este mensaje siguen pendientes: stock, plazo y reserva de 2 Trydan Pro (pregunta 3 del mensaje 1), tarifa de instalador (pregunta 6) y todas las dudas técnicas del mensaje 2. Las preguntas 1, 2 y 5 del mensaje 1 ya no hacen falta.
+
 Sin datos personales de la clienta. Se mandan en dos mensajes: el primero resume el caso y pide lo esencial; el segundo trae las dudas técnicas. Pídele que conteste por escrito.
 
 ## Mensaje 1: resumen y opción viable
