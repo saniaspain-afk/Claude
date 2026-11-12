@@ -14,9 +14,9 @@ Precio, con una corrección frente a la v4: añadí el cable Ethernet del router
 | | v4 | **Final** |
 |---|---:|---:|
 | **B, llave en mano** (con IVA) | 5.805,82 € | **5.871,65 €** |
-| **A, ella compra los cargadores** (con IVA) | 3.146,24 € | **3.212,07 €** |
-| A más los dos Trydan Pro de la web (2.014,66 €) | 5.160,90 € | **5.226,73 €** |
-Margen con costes minoristas: B 30.2 %, A 35.1 %. Se quitó la variante de la Alva.
+| **A, ella compra los cargadores** (con IVA) | 3.135,35 € | **3.201,18 €** |
+| A más los dos Trydan Pro de la web (2.014,66 €) | 5.150,01 € | **5.215,84 €** |
+Margen con costes minoristas: B 30.2 %, A 35,1 %. Se quitó la variante de la Alva.
 
 ---
 
@@ -78,8 +78,8 @@ El aumento a 14,49 kW depende de e-distribución (plazos de respuesta reducidos 
 
 ## 4. Precio y margen
 - **B:** base 4.852,60 €, **5.871,65 € con IVA**, margen 30.2 %, beneficio 1.465,04 €. Sin CIE de la vivienda: 5.520,75 €.
-- **A:** base 2.654,60 €, **3.212,07 € con IVA**, margen 35.1 %, beneficio 932,04 €. Sin CIE de la vivienda: 2.861,17 €.
-- **Comparación con la Alva** (4.883,89 € + Wi-Fi 242,00 € = 5.125,89 €): A más los cargadores de la web = 5.226,73 € (**+100,84 €**); B = 5.871,65 € (+745,76 €). Lo comparable que ya incluía cuesta 4.962,58 € y lo nuevo que ella pidió suma 909,07 €. Esto supone que esas partidas no estaban en el PDF 00039.
+- **A:** base 2.645,60 €, **3.201,18 € con IVA**, margen 35,1 %, beneficio 929,04 €. Sin CIE de la vivienda: 2.850,28 €.
+- **Comparación con la Alva** (4.883,89 € + Wi-Fi 242,00 € = 5.125,89 €): A más los cargadores de la web = 5.215,84 € (**+89,95 €**); B = 5.871,65 € (+655,81 €). Lo comparable que ya incluía cuesta 4.962,58 € y lo nuevo que ella pidió suma 909,07 €. Esto supone que esas partidas no estaban en el PDF 00039.
 - **Si consigues tarifa de instalador** (descuentos supuestos, no datos): con V2C −10 % y materiales −20 %, B deja 35,5 % sin tocar el precio.
 | Dto. V2C | Dto. materiales | Margen B | Beneficio B |
 |---|---|---:|---:|

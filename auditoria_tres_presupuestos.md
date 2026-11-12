@@ -2,8 +2,8 @@
 
 | | A (PRV00041) Trydan, cliente compra | B (PRV00042) Trydan llave en mano | C (PRV00043) Alva llave en mano |
 |---|---|---|---|
-| Base | 2.654,60 | 4.852,60 | 4.183,70 |
-| Total con IVA | 3.212,07 | 5.871,65 | 5.062,28 |
+| Base | 2.645,60 | 4.852,60 | 4.183,70 |
+| Total con IVA | 3.201,18 | 5.871,65 | 5.062,28 |
 | Margen | 35,1 % | 30,19 % | 30.73 % |
 
 ## Comprobado automáticamente
